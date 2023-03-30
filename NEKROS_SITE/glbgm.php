@@ -3,7 +3,7 @@
         <h1>Galeria de BGM</h1>
         <div class="galbgmb">
             <p>
-            Essa galeria contêm audios e sons que estão presentes no jogo, e que tocam durante a jogatina.
+            Essa galeria contêm alguns audios e sons que estão presentes no jogo, e que tocam durante a jogatina.
             Eles ajudam a expressar os sentimentos da cena e do personagem, tanto quanto do jogo como um todo.
             </p>
         </div>

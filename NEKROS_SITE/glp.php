@@ -3,7 +3,7 @@
         <h1>Galeria de Personagens</h1>
         <div class="galpb">
             <p>
-            Esta galeria contêm imagens e informações de alguns de nossos personagens presentes no projeto, graças a ela conseguimos organizar e ter uma noção melhor de como nossos personagens se pareciam aos olhos do público.
+            Esta galeria contêm algumas imagens e informações de alguns de nossos personagens presentes no projeto, graças a ela conseguimos organizar e ter uma noção melhor de como nossos personagens se pareciam aos olhos do público.
             Foi um processo demorado mas, no fim, ficamos satisfeitos com os designs dos personagens.
             </p>
         </div>
