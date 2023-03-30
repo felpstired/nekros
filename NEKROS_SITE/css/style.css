@@ -5,7 +5,7 @@
 }
 
 html, body {
-    background-color: #2a5227;
+    background-color: #41693f;
     height: 100%;
 }
 
@@ -21,7 +21,7 @@ html, body {
 
 .corpo {
     width: 80%;
-    background-color: #477a43;
+    /* background-color: #477a43; */
     margin: auto;
     height: 100%;
 }
@@ -127,119 +127,10 @@ html, body {
 
 
 
-/* PAGINA DE CADASTRO E LOGIN */
 
-.cl {
-    display: flex;
-    justify-content: space-around;
-}
-
-.cl h2 {
-    text-align: center;
-    padding-bottom: 15px;
-    padding-top: 35px;
-}
+/* PAGINA DE LOGIN */
 
 .login {
-    text-align: center;
-    flex-basis: 45%;
-    background-color: #080808;
-    border-radius: 15px;
-    color: #477a43;
-    padding-top: 40px;
-}
-
-.cadastro {
-    text-align: center;
-    flex-basis: 45%;
-    background-color: #080808;
-    border-radius: 15px;
-    color: #477a43;
-    padding-bottom: 36px;
-}
-
-.inpe {
-    width: 70%;
-    text-align: center;
-    border: none;
-    border-radius: 12px;
-    padding: 5px 0px 5px 0px;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-
-.inpe:focus {
-    box-shadow: 4px 4px #2a5227;
-    background-color: #ffffff46;
-    color: #FFFFFF;
-}
-
-.inps {
-    width: 70%;
-    text-align: center;
-    border: none;
-    border-radius: 12px;
-    padding: 5px 0px 5px 0px;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-
-.inps:focus {
-    box-shadow: 4px 4px #2a5227;
-    background-color: #ffffff46;
-    color: #FFFFFF;
-}
-
-.inpu {
-    width: 70%;
-    text-align: center;
-    border: none;
-    border-radius: 12px;
-    padding: 5px 0px 5px 0px;
-    outline: none;
-    font-size: 15px;
-    transition: 0.4s;
-}
-
-.inpu:focus {
-    box-shadow: 4px 4px #2a5227;
-    background-color: #ffffff46;
-    color: #FFFFFF;
-}
-
-#btnlogin {
-    border: none;
-    border-radius: 12px;
-    padding: 3px 25px 3px 25px;
-    font-size: 15px;
-    transition: 0.4s;
-}
-
-#btnlogin:hover {
-    background-color: #2a5227;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-#btncadastro {
-    border: none;
-    border-radius: 12px;
-    padding: 3px 25px 3px 25px;
-    font-size: 15px;
-    transition: 0.4s;
-}
-
-#btncadastro:hover {
-    background-color: #2a5227;
-    color: #ffffff;
-    cursor: pointer;
-}
-
-/* PAGINA SÓ DE LOGIN */
-
-.login1 {
     display: flex;
     justify-content: space-around;
     text-align: left;
@@ -247,14 +138,25 @@ html, body {
     align-items: center;
 }
 
-.login2 {
-    flex-basis: 28%;
-    background-color: #8eaf8c;
-    padding: 30px;
-        align-items: center;
+.lt {
+    text-align: center;
+    color: #1d1d1b;
 }
 
-.inpe1 {
+.limg {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.loginf {
+    flex-basis: 30%;
+    background-color: #8eaf8c;
+    padding: 30px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.inpe {
     width: 100%;
     padding: 5px 0px 5px 10px;
     border: none;
@@ -264,12 +166,12 @@ html, body {
     transition: 0.4s;
 }
 
-.inpe1:focus {
+.inpe:focus {
     outline: none;
     box-shadow: 2px 2px #477a43;
 }
 
-#btnlogin1 {
+#btnlogin {
     width: 100%;
     border: none;
     border-radius: 8px;
@@ -278,11 +180,11 @@ html, body {
     color: #FFFFFF;
 }
 
-#btnlogin1:hover {
+#btnlogin:hover {
     background-color: #2a5227;
 }
 
-.inps1 {
+.inps {
     width: 100%;
     padding: 5px 0px 5px 10px;
     border: none;
@@ -292,17 +194,17 @@ html, body {
     transition: 0.4s;
 }
 
-.inps1:focus {
+.inps:focus {
     outline: none;
     box-shadow: 2px 2px #477a43;
 }
 
-.login2 h2 {
+.login h2 {
     font-size: 35px;
     padding-bottom: 25px;
 }
 
-.login2 p {
+.loginf p {
     text-align: right;
     font-size: 13px;
     padding-top: 3px;
@@ -313,13 +215,205 @@ html, body {
     text-align: center;
 }
 
+.logint h1 {
+    font-size: 30px;
+    text-shadow: 2px 2px #8eaf8c;
+}
+
+
+
+/* PAGINA DE CADASTRO */
+
+.cadastro {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    height: 100%;
+    align-items: center;
+}
+
+.ct {
+    text-align: center;
+    color: #1d1d1b;
+}
+
+.cimg {
+    width: 30%;
+    box-sizing: border-box;
+}
+
+.cadastrof {
+    flex-basis: 30%;
+    background-color: #8eaf8c;
+    padding: 30px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.inpu {
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+.inpu:focus {
+    outline: none;
+    box-shadow: 2px 2px #477a43;
+}
+
+.inpec {
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+.inpec:focus {
+    outline: none;
+    box-shadow: 2px 2px #477a43;
+}
+
+#btncadastro {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: #477a43;
+    color: #FFFFFF;
+}
+
+#btncadastro:hover {
+    background-color: #2a5227;
+}
+
+.inpsc {
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+.inpsc:focus {
+    outline: none;
+    box-shadow: 2px 2px #477a43;
+}
+
+.cadastro h2 {
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.cadastrof p {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.cadastrot {
+    flex-basis: 58%;
+    text-align: center;
+}
+
+
 
 
 /*  GALERIA DE PERSONAGENS  */
 
+.galpa {
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
 .galpa h1 {
     font-family: 'Eater', cursive;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #080808;
+    text-shadow: 2px 2px #477a43;
+    word-spacing: 4px;
+    letter-spacing: 3px;
 }
+
+.galpb {
+    background-color: #173615;
+    width: 90%;
+    margin: auto;
+}
+
+.galpb p {
+    font-size: 25px;
+}
+
+
+
+
+
+/* PAGINA DE DESENVOLVEDORES */
+
+.deva {
+    margin: auto;
+    text-align: center;
+    width: 90%;
+}
+
+.deva h1 {
+    font-family: 'Eater', cursive;
+    font-size: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #080808;
+    text-shadow: 2px 2px #477a43;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+.deva h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    color: #080808;
+    text-shadow: 2px 2px #477a43;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+.deva hr {
+    color: #FFFFFF;
+}
+
+.devb {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.devimg {
+    flex-basis: 45%;
+    background-color: #173615;
+    width: 90%;
+
+}
+
+.devinfo {
+    flex-basis: 45%;
+    background-color: #8eaf8c;
+    width: 100%;
+    border-radius: 15px;
+    border: 4px solid #477a43;
+}
+
+
 
 
 

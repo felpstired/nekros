@@ -12,3 +12,117 @@
 }
 
 */
+
+/* PAGINA DE CADASTRO E LOGIN */
+
+/*
+
+.cl {
+    display: flex;
+    justify-content: space-around;
+}
+
+.cl h2 {
+    text-align: center;
+    padding-bottom: 15px;
+    padding-top: 35px;
+}
+
+.login {
+    text-align: center;
+    flex-basis: 45%;
+    background-color: #080808;
+    border-radius: 15px;
+    color: #477a43;
+    padding-top: 40px;
+}
+
+.cadastro {
+    text-align: center;
+    flex-basis: 45%;
+    background-color: #080808;
+    border-radius: 15px;
+    color: #477a43;
+    padding-bottom: 36px;
+}
+
+.inpe {
+    width: 70%;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 0px 5px 0px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.inpe:focus {
+    box-shadow: 4px 4px #2a5227;
+    background-color: #ffffff46;
+    color: #FFFFFF;
+}
+
+.inps {
+    width: 70%;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 0px 5px 0px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.inps:focus {
+    box-shadow: 4px 4px #2a5227;
+    background-color: #ffffff46;
+    color: #FFFFFF;
+}
+
+.inpu {
+    width: 70%;
+    text-align: center;
+    border: none;
+    border-radius: 12px;
+    padding: 5px 0px 5px 0px;
+    outline: none;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+.inpu:focus {
+    box-shadow: 4px 4px #2a5227;
+    background-color: #ffffff46;
+    color: #FFFFFF;
+}
+
+#btnlogin {
+    border: none;
+    border-radius: 12px;
+    padding: 3px 25px 3px 25px;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+#btnlogin:hover {
+    background-color: #2a5227;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+#btncadastro {
+    border: none;
+    border-radius: 12px;
+    padding: 3px 25px 3px 25px;
+    font-size: 15px;
+    transition: 0.4s;
+}
+
+#btncadastro:hover {
+    background-color: #2a5227;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+*/

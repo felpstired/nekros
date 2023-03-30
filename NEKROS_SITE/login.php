@@ -1,23 +1,26 @@
-<section class="login1">
-    <div class="login2">
-        <h2>Login</h2>
+<section class="login">
+    <div class="loginf">
+        <div class="lt">
+            <img src="./img/login.png" class="limg" alt="">
+            <h2>Login</h2>
+        </div>
         <form name="login" id="login" action="" method="post">
             <div>
-                <label for="email1">E-mail:</label><br>
-                <input type="email" class="inpe1" name="email1" id="email1" placeholder="Digite seu email" maxlength="44">
+                <label for="email">E-mail:</label><br>
+                <input type="email" class="inpe" name="email" id="email" placeholder="Digite seu email" maxlength="44">
             </div>
             <br>
             <div>
-                <label for="senha1">Senha:</label><br>
-                <input type="password" class="inps1" name="senha1" id="senha1" placeholder="Digite sua senha" maxlength="44">
+                <label for="senha">Senha:</label><br>
+                <input type="password" class="inps" name="senha" id="senha" placeholder="Digite sua senha" maxlength="30">
             </div>
             <br>
-            <button name="btnlogin1" id="btnlogin1" type="submit">Fazer login</button>
-            <p>Não tem uma conta? <a href="">Faça seu cadastro!</a></p>
+            <button name="btnlogin" id="btnlogin" type="submit">Fazer login</button>
         </form>
+        <p>Não tem uma conta? <a href="index.php?page=cadastro">Faça seu cadastro!</a></p>
     </div>
-    <div class="logint">
+    <!-- <div class="logint">
         <h1>Faça seu Login!</h1>
         <h3>Ao fazer o login, seu progresso no jogo voltará de onde parou!</h3>
-    </div>
+    </div> -->
 </section>

@@ -39,22 +39,22 @@
             </div>
             <ul class="navl">
                 <li class="litem"><a href="index.php">Home</a></li>
-                <li class="litem"><a href="index.php?page=sin">Sinopse</a></li>
-                <li class="litem"><a href="index.php?page=cl">Cadastro / Login</a></li>
+                <li class="litem"><a href="index.php?page=sinopse">Sinopse</a></li>
+                <!-- <li class="litem"><a href="index.php?page=cl">Cadastro / Login</a></li> -->
                 <li class="litem"><a href="index.php?page=login">Login</a></li>
                 <li class="litem">
                     <div class="drop">
                         <button onclick="menu()" class="menu">☰</button>
                         <div class="dropa" id="dropa">
-                            <a href="index.php?page=glp">Galeria de Personagens</a>
+                            <a href="index.php?page=personagens">Galeria de Personagens</a>
                             <hr>
-                            <a href="index.php?page=glbg">Galeria de Backgrounds</a>
+                            <a href="index.php?page=backgrounds">Galeria de Backgrounds</a>
                             <hr>
-                            <a href="index.php?page=glbgm">Galeria de BGM</a>
+                            <a href="index.php?page=bgm">Galeria de BGM</a>
                             <hr>
-                            <a href="index.php?page=pc">Processo Criativo</a>
+                            <a href="index.php?page=processo_criativo">Processo Criativo</a>
                             <hr>
-                            <a href="index.php?page=dev">Desenvolvedores</a>
+                            <a href="index.php?page=devs">Desenvolvedores</a>
                         </div>
                     </div>
                 </li>
@@ -71,22 +71,24 @@
             $sp = $_GET['page'];
             if($sp == ''){
                 include_once './erro.php';
-            } else if($sp == 'sin'){
+            } else if($sp == 'sinopse'){
                 include_once './sin.php';
-            } else if($sp == 'cl'){
+            } /* else if($sp == 'cl'){
                 include_once './cl.php';
-            } else if($sp == 'glp'){
+            } */ else if($sp == 'personagens'){
                 include_once './glp.php';
-            } else if($sp == 'glbg'){
+            } else if($sp == 'backgrounds'){
                 include_once './glbg.php';
-            } else if($sp == 'glbgm'){
+            } else if($sp == 'bgm'){
                 include_once './glbgm.php';
-            } else if($sp == 'pc'){
+            } else if($sp == 'processo_criativo'){
                 include_once './pc.php';
-            } else if($sp == 'dev'){
+            } else if($sp == 'devs'){
                 include_once './dev.php';
             } else if($sp == 'login'){
                 include_once './login.php';
+            } else if($sp == 'cadastro'){
+                include_once './cadastro.php';
             } else {
                 include_once './erro.php';
             }
