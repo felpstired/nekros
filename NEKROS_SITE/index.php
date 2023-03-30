@@ -83,7 +83,7 @@
             } else if($sp == 'dev'){
                 include_once './dev.php';
             } else {
-                echo 'Essa página não existe!';
+                include_once './erro.php';
             }
         } else {
             include_once './home.php';

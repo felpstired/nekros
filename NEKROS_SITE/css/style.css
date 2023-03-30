@@ -45,6 +45,21 @@ body {
     height: 40px;
 }
 
+/*
+.nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+.nav ul li {
+    display: inline;
+    padding: 0px 10px 0px 10px;
+}
+
+*/
+
 .menu {
     background-color: #080808;
     color: #FFFFFF;
@@ -103,13 +118,14 @@ body {
 .cl {
     display: flex;
     justify-content: space-around;
-    padding-top: 15px;
+    padding-top: 220px;
+    padding-bottom: 220px;
 }
 
 .cl h2 {
     text-align: center;
     padding-bottom: 15px;
-    padding-top: 15px;
+    padding-top: 35px;
 }
 
 .login {
@@ -118,6 +134,7 @@ body {
     background-color: #080808;
     border-radius: 15px;
     color: #477a43;
+    padding-top: 40px;
 }
 
 .cadastro {
@@ -126,6 +143,7 @@ body {
     background-color: #080808;
     border-radius: 15px;
     color: #477a43;
+    padding-bottom: 36px;
 }
 
 .inpe {
@@ -209,8 +227,40 @@ body {
 
 
 
-/* PAGINA DE ERRO */
+/*  PAGINA DE ERRO  */
 
 .erro {
+    text-align: center;
+    padding-top: 306px;
+    padding-bottom: 306px;
+}
+
+.errod {
+    width: 50%;
     margin: auto;
+    background-color: #080808;
+    color: #FFFFFF;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+.errod h1 {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+.errod h4 {
+    padding-bottom: 15px;
+}
+
+.errod a {
+    text-decoration: none;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.errod a:hover {
+    color: #2a5227;
 }

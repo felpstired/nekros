@@ -37,15 +37,3 @@
         </form>
     </div>
 </section>
-
-
-
-
-
-
-
-<?php
-
-echo 'pagina de cadastro ou login';
-
-?>
