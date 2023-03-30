@@ -6,7 +6,7 @@
 }
 
 html {
-    background: url("") no-repeat center center fixed; 
+    background: url() no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -69,8 +69,15 @@ html, body {
 }
 
 .logo {
-    height: 40px;
+    height: 50px;
 }
+
+@media only screen and (max-width: 601px) {
+    .logo {
+        height: 35px;
+    }
+}
+
 
 /*
 .nav ul {
@@ -137,6 +144,7 @@ html, body {
     padding-top: 5px;
     padding-bottom: 5px;
     font-weight: 400;
+    font-size: 17.5px;
 }
 
 
@@ -157,6 +165,8 @@ html, body {
     color: #1d1d1b;
 }
 
+
+
 .limg {
     width: 30%;
     box-sizing: border-box;
@@ -167,6 +177,12 @@ html, body {
     padding: 30px;
     align-items: center;
     border-radius: 8px;
+}
+
+@media only screen and (max-width: 601px) {
+    .loginf {
+        width: 90%;
+    }
 }
 
 .inpe {
@@ -217,10 +233,22 @@ html, body {
     padding-bottom: 25px;
 }
 
+@media only screen and (max-width: 601px) {
+    .login h2 {
+        font-size: 30px;
+    }
+}
+
 .loginf p {
     text-align: right;
     font-size: 13px;
     padding-top: 3px;
+}
+
+@media only screen and (max-width: 601px) {
+    .loginf p {
+        font-size: 11px;
+    }
 }
 
 .logint {
@@ -260,6 +288,12 @@ html, body {
     padding: 30px;
     align-items: center;
     border-radius: 8px;
+}
+
+@media only screen and (max-width: 601px) {
+    .cadastrof {
+        width: 90%;
+    }
 }
 
 .inpu {
@@ -325,10 +359,22 @@ html, body {
     padding-bottom: 25px;
 }
 
+@media only screen and (max-width: 601px) {
+    .cadastro h2 {
+        font-size: 30px;
+    }
+}
+
 .cadastrof p {
     text-align: right;
     font-size: 13px;
     padding-top: 3px;
+}
+
+@media only screen and (max-width: 601px) {
+    .cadastrof p {
+        font-size: 11px;
+    }
 }
 
 .cadastrot {
@@ -351,7 +397,7 @@ html, body {
 
 @media only screen and (max-width: 601px) {
     .galpa {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -457,7 +503,7 @@ html, body {
 
 @media only screen and (max-width: 601px) {
     .galbga {
-        width: 100%;
+        width: 90%;
     }
 }
 
@@ -526,6 +572,115 @@ html, body {
 
 
 
+
+/*  GALERIA DE BGM  */
+
+.galbgma {
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 601px) {
+    .galbgma {
+        width: 90%;
+    }
+}
+
+.galbgma h1 {
+    font-family: 'Eater', cursive;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #080808;
+    text-shadow: 2px 2px #477a43;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 601px) {
+    .galbgma h1 {
+        font-size: 30px;
+    }
+}
+
+.galbgma hr {
+    color: #FFFFFF;
+}
+
+.galbgmb {
+    background-color: #173615;
+    width: 90%;
+    margin: auto;
+}
+
+.galbgmb p {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 601px) {
+    .galbgmb p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .galbgmc {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .galbgmc hr {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .sep {
+        display: none;
+    }
+}
+
+.bgms {
+    flex-basis: 45%;
+    background-color: #173615;
+    width: 90%;
+    box-sizing: border-box;
+
+}
+
+@media only screen and (max-width: 601px) {
+    .bgms {
+        width: 100%;
+    }
+}
+
+.bgminfo {
+    flex-basis: 45%;
+    background-color: #8eaf8c;
+    width: 100%;
+    border-radius: 15px;
+    border: 4px solid #477a43;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 601px) {
+    .bgminfo h3 {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
 /* PAGINA DE DESENVOLVEDORES */
 
 .deva {
@@ -538,7 +693,7 @@ html, body {
 
 @media only screen and (max-width: 601px) {
     .deva {
-        width: 100%;
+        width: 90%;
     }
 }
 

@@ -4,7 +4,7 @@
             <img src="./img/login.png" class="limg" alt="">
             <h2>Login</h2>
         </div>
-        <form name="login" id="login" action="" method="post">
+        <form name="login" id="login" action="./acao.php" method="post">
             <div>
                 <label for="email">E-mail:</label><br>
                 <input type="email" class="inpe" name="email" id="email" placeholder="Digite seu email" maxlength="44">

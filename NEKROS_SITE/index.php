@@ -33,7 +33,7 @@
     <div class="body">
     <section id="header">
         <nav class="navb">
-            <div>
+            <div class="logoimg">
                 <a href="index.php"><img class="logo" src="./img/logo.jpg" alt=""></a>
                 <!-- <img src="./img/logo.jpg" alt=""> -->
             </div>
@@ -100,8 +100,7 @@
         </div>
     </section>
     <section class="footer">
-        <p>- Todos os direitos reservados -</p>
-        <p>- © Copyright 2023 Minerva Games Limited -</p>
+        <p>© 2023 Minerva Games Limited - Todos os direitos reservados</p>
     </section>
     </div>
 </body>
