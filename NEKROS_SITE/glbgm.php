@@ -3,7 +3,8 @@
         <h1>Galeria de BGM</h1>
         <div class="galbgmb">
             <p>
-        Razão da galeria, por quê a criamos, o que experienciamos fazendo os desenhos, o que aprendemos com essa experiência.
+            Essa galeria contêm audios e sons que estão presentes no jogo, e que tocam durante a jogatina.
+            Eles ajudam a expressar os sentimentos da cena e do personagem, tanto quanto do jogo como um todo.
             </p>
         </div>
         <br>

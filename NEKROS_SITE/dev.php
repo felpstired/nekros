@@ -11,7 +11,10 @@
             <div class="av">
                 <div class="devinfo">
                     <h3>MINERVA GAMES</h3>
-                    <p>Uma desenvolvedora de jogos voltada para um tema de inclusão social</p>
+                    <p>Somos uma equipe que visa um tema de inclusão social. 
+                        Nosso objetivo é quebrar paradigmas e provar que, assim como todo mundo, as minorias podem e devem ser retratadas nas mídias, independente do sexo, cor, sexualidade ou identidade de gênero.
+                        Nós criamos e desenvolvemos designs, aplicativos e, principalmente, jogos que possam incluir todos os tipos de pessoas sem desrespeitar-las, as retratando de forma honesta e como seres humanos de respeito.
+                    </p>
                 </div>
             </div>
         </div>

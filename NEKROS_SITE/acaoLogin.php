@@ -30,7 +30,7 @@
                 ';
             } else if ($login == 0) {
                 echo '
-                <h1>Email e/ou senha incorretos!</h1>
+                <h1>Email e/ou senha incorretos OU inexistentes!</h1>
                 <h4>Por favor, tente novamente.</h4>
                 <a href="./index.php">Clique aqui para voltar para página principal</a>
                 ';

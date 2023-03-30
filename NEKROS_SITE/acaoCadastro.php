@@ -35,6 +35,8 @@
                     <h1>Cadastro realizado com sucesso!</h1>
                     <h4>Agora suas informações e seu progresso no jogo poderá ficar salvos!</h4>
                     <a href="./index.php">Clique aqui para voltar para página principal</a>
+                    <h4>Ou...</h4>
+                    <a href="index.php?page=login">Clique aqui para logar</a>
                 ';
             } else {
                 echo '

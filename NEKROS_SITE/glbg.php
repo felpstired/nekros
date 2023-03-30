@@ -3,7 +3,8 @@
         <h1>Galeria de Backgrounds</h1>
         <div class="galbgb">
             <p>
-        Razão da galeria, por quê a criamos, o que experienciamos fazendo os desenhos, o que aprendemos com essa experiência.
+            Esta galeria contêm imagens dos planos de fundo presentes no jogo.
+            Com eles é possível definir um pouco melhor o clima e o sentimento que a cena quer passar.
             </p>
         </div>
         <br>

@@ -3,7 +3,8 @@
         <h1>Processo Criativo</h1>
         <div class="pcb">
             <p>
-            Razão da galeria, por quê a criamos, o que experienciamos fazendo os desenhos, o que aprendemos com essa experiência.
+                Essa parte do site está voltada a listar alguns dos processos no qual passamos para chegar ao resultado final desse projeto.
+                Os processos aqui listados estão em ordem cronológica.
             </p>
         </div>
         <br>
@@ -11,7 +12,7 @@
         <br>
         <div class="pcc">
             <div class="pcimg">
-                <h3>IMAGEM PROCESSO</h3>
+                <img src="./css/img/IMAGENS/placeholder2.png" alt="placeholder_1por1">
             </div>
             <hr>
             <br class="sep">
@@ -33,7 +34,7 @@
             <hr>
             <br class="sep">
             <div class="pcimg">
-                <h3>IMAGEM PROCESSO</h3>
+                <img src="./css/img/IMAGENS/placeholder2.png" alt="placeholder_1por1">
             </div>
         </div>
     </div>
