@@ -17,11 +17,12 @@
     $msg = false;
 
     if (isset($_FILES['arquivo'])) {
-        $arq = $_FILES['arquivo'];
-        $ext = pathinfo($arq['name'], PATHINFO_EXTENSION);
+        $d = 'upload/';
+        $arq = basename($_FILES['arquivo']['name']);
+        $darq = $d . $arq;
+        $ext = pathinfo($darq, PATHINFO_EXTENSION);
         $nome = md5(uniqid($arq['name'])).".".$ext;
-        $diretorio = 'upload/';
-        move_uploaded_file($arq['tmp_name'], $diretorio.$nome);
+        move_uploaded_file($arq['tmp_name'], $darq);
         if(teste($nome) == 'True'){
           $msg = "Arquivo enviado com sucesso!";
         } else {
@@ -47,6 +48,26 @@
         <br>
         <input type="submit" value="Enviar">
     </form>
+
+    <div align="center">
+        
+        <?php
+        
+        $imgs = pegar('tbteste');
+
+        while ($img = mysqli_fetch_assoc($imgs)) {
+        ?>
+
+        <img src="./upload/<?php echo $data['nome']; ?>" alt="">
+
+        <?php
+        
+        }
+        
+        ?>
+
+    </div>
+
 </body>
 
 </html>

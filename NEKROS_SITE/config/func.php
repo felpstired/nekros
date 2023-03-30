@@ -13,7 +13,7 @@ function conectar() {
 
 function usuario(){
     $conn = conectar();
-    $lista = $conn->query('SELECT * FROM tbusuario;');
+    $lista = $conn->query('SELECT * FROM tbusuario');
     $lista->execute();
     if ($lista->rowCount() > 0) {
         return $lista->fetchAll(PDO::FETCH_OBJ);
@@ -57,5 +57,15 @@ function teste($a){
     }
 }
 
+function pegar($tabela){
+    $conn = conectar();
+    $lista = $conn->query("SELECT * FROM ($tabela)");
+    $lista->execute();
+    if ($lista->rowCount() > 0) {
+        return $lista->fetchAll(PDO::FETCH_OBJ);
+    } else {
+        return 'A lista está vazia.';
+    }
+}
 
 ?>
