@@ -14,7 +14,7 @@
             <div class="av">
                 <div class="pinfo">
                     <h3>WILLIAN (INTP)</h3>
-                    <p>Willian Bennett, ou só Benny, é o protagonista de</p>
+                    <p>Willian Bennett, ou só Benny, é o protagonista de Nékros, juntamente dele, o usuário vai descobrir e desbravar deste universo que, de repente, virou de cabeça para baixo.</p>
                 </div>
             </div>
             <hr>

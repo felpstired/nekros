@@ -12,12 +12,13 @@
         <br>
         <div class="galbgc">
             <div class="bgimg">
-                <img src="./css/img/IMAGENS/placeholder1.png" alt="">
+                <img src="./css/img/IMAGENS/GALERIAS/BACKGROUND/bg_praca.png" alt="bg_praca">
             </div>
             <br>
             <div class="av">
                 <div class="bginfo">
-                    <h3>INFO INFO</h3>
+                    <h3>PRAÇA</h3>
+                    <p>O lugar onde toda a história do projeto começa.</p>
                 </div>
             </div>
         </div>
