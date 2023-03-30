@@ -454,22 +454,172 @@ body {
 }
 
 .homeB {
+    display: table-cell;
+    vertical-align: middle;
     text-align: center;
     margin: 25px;
-    background-color: #aa9e71;
+    background: url("./img/IMAGENS/GALERIAS/BACKGROUND/bg_praca.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     border-radius: 15px;
     border: 4px solid #615a2e;
     box-sizing: border-box;
     height: 95%;
     width: 100%;
-    color: #59131b;
+    color: #ebe4b8;
 }
 
-@media only screen and (min-width: 601px) {
-    .homeB {
-        display: table-cell;
-        vertical-align: middle;
+.homeB h1, .homeB a {
+    font-size: 25px;
+}
+
+.homeB a {
+    text-decoration: none;
+    color: #180b05;
+    font-weight: 700;
+}
+
+@media only screen and (max-width: 601px) {
+    .homeB a {
+        font-size: 17px;
     }
+}
+
+@media only screen and (max-width: 601px) {
+    .homeB h1 {
+        font-size: 17px;
+    }
+}
+
+.homeB a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ebe4b8;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.homeB a:hover {
+    color: #6d1722;
+}
+
+.homeB a:hover::after {
+    width: 40%;
+}
+
+@media only screen and (max-width: 601px) {
+    .homeB a:hover::after {
+        width: 60%;
+    }
+}
+
+
+/*  PAGINAS DE DOWNLOAD  */
+
+.download {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.downloada {
+    width: 60%;
+    margin: 15px;
+    background-color: #aa9e71;
+    color: #180b05;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 601px) {
+    .downloada {
+        width: 90%;
+    }
+}
+
+.downloada h1 {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 601px) {
+    .downloada h1 {
+        font-size: 30px;
+    }
+}
+
+.downloada h4 {
+    font-size: 20px;
+}
+
+.downloada h4 {
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 601px) {
+    .downloada h4 {
+        font-size: 15px;
+    }
+}
+
+.linkcad {
+    text-decoration: none;
+    color: #180b05;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 601px) {
+    .linkcad {
+        font-size: 17px;
+    }
+}
+
+.linkcad::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #ebe4b8;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.linkcad:hover {
+    color: #6d1722;
+}
+
+.linkcad:hover::after {
+    width: 40%;
+}
+
+@media only screen and (max-width: 601px) {
+    .linkcad:hover::after {
+        width: 60%;
+    }
+}
+
+.downloadb {
+    margin: 15px;
+}
+
+.linkdownload {
+    text-decoration: none;
+    background-color: #615a2e;
+    color: #ebe4b8;
+    padding: 5px 30px 5px 30px;
+    border-radius: 15px;
+}
+
+.linkdownload:hover {
+    background-color: #59131b;
 }
 
 

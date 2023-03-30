@@ -16,6 +16,8 @@
     <?php
     
     session_start();
+    ob_start();
+
     include_once './config/func.php';
 
     if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
@@ -105,7 +107,13 @@
                 include_once './acaoLogin.php';
             } else if($sp == 'log'){
                 include_once './log.php';
-            } else {
+            } else if($sp == 'download'){
+                if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
+                    include_once './download.php';
+                } else {
+                    include_once './ver.php';
+                }
+            }else {
                 include_once './erro.php';
             }
         } else {

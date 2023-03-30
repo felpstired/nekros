@@ -48,6 +48,10 @@
         <br>
         <input type="submit" value="Enviar">
     </form>
+    
+    <button type="submit" onclick="window.open('./upload/e75c1a8d535b06394fa4754424e555f0.jpg')">DOWNLOAD</button>
+
+    <a href="./game/nekros.zip" download="NEKROS">DOWNLOAD</a>
 
     <div align="center">
         <?php
