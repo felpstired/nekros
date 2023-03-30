@@ -57,9 +57,9 @@ function teste($a){
     }
 }
 
-function pegar($tabela){
+function pegar($a){
     $conn = conectar();
-    $lista = $conn->query("SELECT * FROM ($tabela)");
+    $lista = $conn->query("SELECT arquivo FROM tbteste WHERE arquivo = ('$a')");
     $lista->execute();
     if ($lista->rowCount() > 0) {
         return $lista->fetchAll(PDO::FETCH_OBJ);

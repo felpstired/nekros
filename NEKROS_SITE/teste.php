@@ -18,10 +18,10 @@
 
     if (isset($_FILES['arquivo'])) {
         $d = 'upload/';
-        $arq = basename($_FILES['arquivo']['name']);
-        $darq = $d . $arq;
-        $ext = pathinfo($darq, PATHINFO_EXTENSION);
+        $arq = $_FILES['arquivo'];
+        $ext = pathinfo($arq['name'], PATHINFO_EXTENSION);
         $nome = md5(uniqid($arq['name'])).".".$ext;
+        $darq = $d . $nome;
         move_uploaded_file($arq['tmp_name'], $darq);
         if(teste($nome) == 'True'){
           $msg = "Arquivo enviado com sucesso!";
@@ -50,20 +50,14 @@
     </form>
 
     <div align="center">
-        
         <?php
         
-        $imgs = pegar('tbteste');
+        $img = pegar($nome);
 
-        while ($img = mysqli_fetch_assoc($imgs)) {
-        ?>
-
-        <img src="./upload/<?php echo $data['nome']; ?>" alt="">
-
-        <?php
-        
+        if ($img != '') {
+            echo "<img src=./upload/" . $img . ">";
         }
-        
+
         ?>
 
     </div>
