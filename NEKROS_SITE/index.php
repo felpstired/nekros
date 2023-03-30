@@ -11,6 +11,24 @@
     <title>Home | Projeto</title>
 </head>
 <body>
+    <script>
+        function menu() {
+            document.getElementById("dropa").classList.toggle("show");
+        }
+
+        window.onclick = function(event) {
+            if (!event.target.matches('.menu')) {
+                var dropdowns = document.getElementsByClassName("dropa");
+                var i;
+                for (i = 0; i < dropdowns.length; i++) {
+                    var openDropdown = dropdowns[i];
+                    if (openDropdown.classList.contains('show')) {
+                        openDropdown.classList.remove('show');
+                    }
+                }
+            }
+        }
+    </script>
     <section id="header">
         <nav class="navb">
             <div>
@@ -21,14 +39,20 @@
                 <li class="litem"><a href="index.php?page=home">Home</a></li>
                 <li class="litem"><a href="index.php?page=sin">Sinopse</a></li>
                 <li class="litem"><a href="index.php?page=cl">Cadastro / Login</a></li>
-                <li class="litem" class="drop">
-                    <a href="">AA</a>
-                    <div class="dropa">
-                        <a href="">Galeria de Personagens</a>
-                        <a href="">Galeria de Backgrounds</a>
-                        <a href="">Galeria de BGM</a>
-                        <a href="">Processo Criativo</a>
-                        <a href="">Desenvolvedores</a>
+                <li class="litem">
+                    <div class="drop">
+                        <button onclick="menu()" class="menu">☰</button>
+                        <div class="dropa" id="dropa">
+                            <a href="">Galeria de Personagens</a>
+                            <hr>
+                            <a href="">Galeria de Backgrounds</a>
+                            <hr>
+                            <a href="">Galeria de BGM</a>
+                            <hr>
+                            <a href="">Processo Criativo</a>
+                            <hr>
+                            <a href="">Desenvolvedores</a>
+                        </div>
                     </div>
                 </li>
             </ul>
@@ -59,9 +83,9 @@
         </div>
     </section>
     <section class="footer">
-        <p>© Copyright 2022 Minerva Games Limited.</p>
+        <p>- © Copyright 2023 Minerva Games Limited -</p>
         <br>
-        <p>Todos os direitos reservados.</p>
+        <p>- Todos os direitos reservados -</p>
     </section>
 </body>
 </html>
