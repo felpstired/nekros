@@ -5,9 +5,10 @@
         <br>
         <div class="devb">
             <div class="devimg">
-                <h3>IMAGEM FOTO</h3>
+                <h3>IMAGEM DEV</h3>
             </div>
             <hr>
+            <br class="sep">
             <div class="devinfo">
                 <h3>INFO INFO</h3>
             </div>
@@ -20,8 +21,9 @@
                 <h3>INFO INFO</h3>
             </div>
             <hr>
+            <br class="sep">
             <div class="devimg">
-                <h3>IMAGEM FOTO</h3>
+                <h3>IMAGEM DEV</h3>
             </div>
         </div>
         <br>
@@ -29,9 +31,10 @@
         <br>
         <div class="devb">
             <div class="devimg">
-                <h3>IMAGEM FOTO</h3>
+                <h3>IMAGEM DEV</h3>
             </div>
             <hr>
+            <br class="sep">
             <div class="devinfo">
                 <h3>INFO INFO</h3>
             </div>
@@ -44,8 +47,9 @@
                 <h3>INFO INFO</h3>
             </div>
             <hr>
+            <br class="sep">
             <div class="devimg">
-                <h3>IMAGEM FOTO</h3>
+                <h3>IMAGEM DEV</h3>
             </div>
         </div>
         <br>
@@ -53,9 +57,10 @@
         <br>
         <div class="devb">
             <div class="devimg">
-                <h3>IMAGEM FOTO</h3>
+                <h3>IMAGEM DEV</h3>
             </div>
             <hr>
+            <br class="sep">
             <div class="devinfo">
                 <h3>INFO INFO</h3>
             </div>
