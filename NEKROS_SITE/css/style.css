@@ -413,6 +413,34 @@ html, body {
 
 
 
+
+/*  HOME  */
+
+.home {
+    text-align: center;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+}
+
+.homeb {
+    background-color: #8eaf8c;
+    width: 100%;
+    border-radius: 15px;
+    border: 4px solid #477a43;
+    box-sizing: border-box;
+}
+
+@media only screen and (min-width: 601px) {
+    .homeb {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+
+
+
 /*  PAGINA DE SINOPSE  */
 
 .sina {
@@ -826,6 +854,111 @@ html, body {
 
 
 
+/*  PROCESSO CRIATIVO */
+
+.pca {
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 601px) {
+    .pca {
+        width: 90%;
+    }
+}
+
+.pca h1 {
+    font-family: 'Eater', cursive;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #080808;
+    text-shadow: 2px 2px #477a43;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 601px) {
+    .pca h1 {
+        font-size: 30px;
+    }
+}
+
+.pca hr {
+    color: #FFFFFF;
+}
+
+.pcb {
+    background-color: #173615;
+    width: 90%;
+    margin: auto;
+}
+
+.pcb p {
+    font-size: 25px;
+}
+
+@media only screen and (max-width: 601px) {
+    .pcb p {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .pcc {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .pcc hr {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .sep {
+        display: none;
+    }
+}
+
+.pcimg {
+    flex-basis: 45%;
+    background-color: #173615;
+    width: 90%;
+    box-sizing: border-box;
+
+}
+
+@media only screen and (max-width: 601px) {
+    .pcimg {
+        width: 100%;
+    }
+}
+
+.pcinfo {
+    flex-basis: 45%;
+    background-color: #8eaf8c;
+    width: 100%;
+    border-radius: 15px;
+    border: 4px solid #477a43;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 601px) {
+    .pcinfo h3 {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
 
 
 
@@ -1065,6 +1198,101 @@ html, body {
 }
 
 .acaoCad {
+    margin: 15px;
+}
+
+
+
+
+/*  ACAO LOGIN  */
+
+.acaoL {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.acaoLo {
+    width: 60%;
+    margin: 15px;
+    background-color: #8eaf8c;
+    color: #080808;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 601px) {
+    .acaoLo {
+        width: 90%;
+    }
+}
+
+.acaoLo h1 {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 601px) {
+    .acaoLo h1 {
+        font-size: 30px;
+    }
+}
+
+.acaoLo h4 {
+    font-size: 20px;
+}
+
+.acaoLo h4 {
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 601px) {
+    .acaoLo h4 {
+        font-size: 15px;
+    }
+}
+
+.acaoLo a {
+    text-decoration: none;
+    color: #080808;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 601px) {
+    .acaoLo a {
+        font-size: 17px;
+    }
+}
+
+.acaoLo a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #FFFFFF;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.acaoLo a:hover {
+    color: #2a5227;
+}
+
+.acaoLo a:hover::after {
+    width: 40%;
+}
+
+@media only screen and (max-width: 601px) {
+    .acaoLo a:hover::after {
+        width: 60%;
+    }
+}
+
+.acaoLog {
     margin: 15px;
 }
 

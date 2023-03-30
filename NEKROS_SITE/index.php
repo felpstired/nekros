@@ -96,6 +96,8 @@
                 include_once './acaoCadastro.php';
             } else if($sp == 'logSucesso'){
                 include_once './acaoLogin.php';
+            } else if($sp == 'log'){
+                include_once './log.php';
             } else {
                 include_once './erro.php';
             }

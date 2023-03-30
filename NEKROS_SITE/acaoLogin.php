@@ -1,3 +1,7 @@
+<?php
+session_start();
+?>
+
 <section class="acaoL">
     <div class="acaoLo">
         <div class="acaoLog">
@@ -5,6 +9,7 @@
 
             if (isset($_POST['email']) && !empty($_POST['email'])) {
                 $email = $_POST['email'];
+                $_SESSION['email'] = $email;
             } else {
                 echo 'Ocorreu um erro ao tentar acessar a informação.';
                 echo 'Por favor, tente novamente.';
@@ -13,6 +18,7 @@
 
             if (isset($_POST['senha']) && !empty($_POST['senha'])) {
                 $senha = $_POST['senha'];
+                $_SESSION['senha'] = $senha;
             } else {
                 echo 'Ocorreu um erro ao tentar acessar a informação.';
                 echo 'Por favor, tente novamente.';
