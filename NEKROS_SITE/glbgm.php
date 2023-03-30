@@ -10,8 +10,10 @@
         <hr>
         <br>
         <div class="galbgmc">
-            <div class="bgminfo">
-                <h3>INFO INFO</h3>
+            <div class="av">
+                <div class="bgminfo">
+                    <h3>INFO INFO</h3>
+                </div>
             </div>
             <hr>
             <br class="sep">
@@ -28,8 +30,10 @@
             </div>
             <hr>
             <br class="sep">
-            <div class="bgminfo">
-                <h3>INFO INFO</h3>
+            <div class="av">
+                <div class="bgminfo">
+                    <h3>INFO INFO</h3>
+                </div>
             </div>
         </div>
     </div>

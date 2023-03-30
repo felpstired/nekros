@@ -1,7 +1,7 @@
 <section class="login">
     <div class="loginf">
         <div class="lt">
-            <img src="./css/img/logo/AA.png" class="limg" alt="">
+            <img src="./css/img/DIVERSOS/AA.png" class="limg" alt="">
             <h2>Login</h2>
         </div>
         <form name="login" id="login" action="./acao.php" method="post">

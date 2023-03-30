@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Butcherman&family=Eater&display=swap" rel="stylesheet">
-    <title>Home | Nekrós</title>
+    <link rel="icon" type="image/x-icon" href="./css/img/LOGO/NEKROS/favicon.ico">
+    <title>Nekrós</title>
 </head>
 <body>
     <script>
@@ -33,9 +34,11 @@
     <div class="body">
     <section id="header">
         <nav class="navb">
-            <div class="logoimg">
-                <a href="index.php"><img class="logo" src="./css/img/LOGO/reserva.jpg" alt=""></a>
-                <!-- <img src="./img/logo.jpg" alt=""> -->
+            <div class="av1">
+                <div class="logoimg">
+                    <a href="index.php"><img class="logo" src="./css/img/LOGO/NEKROS/nekros.jpg" alt=""></a>
+                    <!-- <img src="./img/logo.jpg" alt=""> -->
+                </div>
             </div>
             <ul class="navl">
                 <li class="litem"><a href="index.php">Home</a></li>

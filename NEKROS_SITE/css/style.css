@@ -6,7 +6,7 @@
 }
 
 html {
-    background: url("./img/fundo.jpg") no-repeat center center fixed; 
+    background: url("./img/FUNDOS/fundo.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -68,31 +68,37 @@ html, body {
     color: #2a5227;
 }
 
+.av1 {
+    display: inline-block;
+    height: 100%;
+}
+
+.logoimg {
+    vertical-align: middle;
+    text-align: center;
+    display: table-cell;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.logoimg img {
+    display: block;
+    margin: 0 auto;
+}
+
 .logo {
     height: 50px;
+    width: 50px;
+    border-radius: 50%;
 }
 
 @media only screen and (max-width: 601px) {
     .logo {
         height: 35px;
+        width: 35px;
     }
 }
-
-
-/*
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-.nav ul li {
-    display: inline;
-    padding: 0px 10px 0px 10px;
-}
-
-*/
 
 .menu {
     background-color: #080808;
@@ -146,6 +152,14 @@ html, body {
     font-weight: 400;
     font-size: 17.5px;
 }
+
+@media only screen and (max-width: 601px) {
+    .footer {
+        font-size: 14px;
+    }
+}
+
+
 
 
 
@@ -381,6 +395,127 @@ html, body {
     flex-basis: 58%;
     text-align: center;
 }
+
+
+
+
+
+/*  PAGINA DE SINOPSE  */
+
+.sina {
+    text-align: center;
+    width: 80%;
+    height: 100%;
+    margin: auto;
+    padding-bottom: 30px;
+}
+
+@media only screen and (max-width: 601px) {
+    .sina {
+        width: 90%;
+    }
+}
+
+.sina h1 {
+    font-family: 'Eater', cursive;
+    font-size: 45px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    color: #080808;
+    text-shadow: 2px 2px #477a43;
+    word-spacing: 4px;
+    letter-spacing: 3px;
+}
+
+@media only screen and (max-width: 601px) {
+    .sina h1 {
+        font-size: 30px;
+    }
+}
+
+.sina hr {
+    color: #FFFFFF;
+}
+
+@media only screen and (min-width: 601px) {
+    .sinc {
+        display: flex;
+        justify-content: space-evenly;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .sinc hr {
+        display: none;
+    }
+}
+
+.sininfo {
+    flex-basis: 45%;
+    background-color: #8eaf8c;
+    width: 100%;
+    border-radius: 15px;
+    border: 4px solid #477a43;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 601px) {
+    .sininfo {
+        font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .sininfo {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .av {
+        display: table;
+        text-align: center;
+    }
+}
+
+
+.sinimg {
+    flex-basis: 45%;
+    background-color: #173615cb;
+    width: 90%;
+    box-sizing: border-box;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.sinimg img {
+    height: 100%;
+    width: 100%;
+}
+
+@media only screen and (max-width: 601px) {
+    .sinimg {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .sinimg img {
+        width: 100%;
+        height: 100%;
+    }
+}
+
+
+
 
 
 
@@ -787,6 +922,15 @@ html, body {
     }
 }
 
+
+/* AV = ALINHAR VERTICALMENTE */
+
+.av {
+    flex-basis: 45%;
+    width: 100%;
+}
+
+
 .devinfo {
     flex-basis: 45%;
     background-color: #8eaf8c;
@@ -804,12 +948,17 @@ html, body {
 
 @media only screen and (min-width: 601px) {
     .devinfo {
-        display: ;
-        align-items: center;
-        justify-content: center;
+        display: table-cell;
+        vertical-align: middle;
     }
 }
 
+@media only screen and (min-width: 601px) {
+    .av {
+        display: table;
+        text-align: center;
+    }
+}
 
 
 

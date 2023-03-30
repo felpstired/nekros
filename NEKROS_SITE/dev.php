@@ -5,12 +5,14 @@
         <br>
         <div class="devb">
             <div class="devimg">
-                <img src="./css/img/LOGO/mg.jpg" alt="">
+                <img src="./css/img/LOGO/MINERVA/mg.jpg" alt="">
             </div>
             <br class="sep">
-            <div class="devinfo">
-                <P>ADKJFHKADHASD</P>
-                <p>Uma desenvolvedora de jogos voltada para um tema de inclusão social</p>
+            <div class="av">
+                <div class="devinfo">
+                    <h3>MINERVA GAMES</h3>
+                    <p>Uma desenvolvedora de jogos voltada para um tema de inclusão social</p>
+                </div>
             </div>
         </div>
         <br>
@@ -21,42 +23,20 @@
             </div>
             <hr>
             <br class="sep">
-            <div class="devinfo">
-                <h3>INFO INFO</h3>
+            <div class="av">
+                <div class="devinfo">
+                    <h3>INFO INFO</h3>
+                </div>
             </div>
         </div>
         <br>
         <hr>
         <br>
         <div class="devb">
-            <div class="devinfo">
-                <h3>INFO INFO</h3>
-            </div>
-            <hr>
-            <br class="sep">
-            <div class="devimg">
-                <h3>IMAGEM DEV</h3>
-            </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="devb">
-            <div class="devimg">
-                <h3>IMAGEM DEV</h3>
-            </div>
-            <hr>
-            <br class="sep">
-            <div class="devinfo">
-                <h3>INFO INFO</h3>
-            </div>
-        </div>
-        <br>
-        <hr>
-        <br>
-        <div class="devb">
-            <div class="devinfo">
-                <h3>INFO INFO</h3>
+            <div class="av">
+                <div class="devinfo">
+                    <h3>INFO INFO</h3>
+                </div>
             </div>
             <hr>
             <br class="sep">
@@ -73,8 +53,40 @@
             </div>
             <hr>
             <br class="sep">
-            <div class="devinfo">
-                <h3>INFO INFO</h3>
+            <div class="av">
+                <div class="devinfo">
+                    <h3>INFO INFO</h3>
+                </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="devb">
+            <div class="av">
+                <div class="devinfo">
+                    <h3>INFO INFO</h3>
+                </div>
+            </div>
+            <hr>
+            <br class="sep">
+            <div class="devimg">
+                <h3>IMAGEM DEV</h3>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="devb">
+            <div class="devimg">
+                <h3>IMAGEM DEV</h3>
+            </div>
+            <hr>
+            <br class="sep">
+            <div class="av">
+                <div class="devinfo">
+                    <h3>INFO INFO</h3>
+                </div>
             </div>
         </div>
     </div>

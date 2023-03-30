@@ -14,16 +14,20 @@
                 <h3>IMAGEM BACKGROUND</h3>
             </div>
             <br>
-            <div class="bginfo">
-                <h3>INFO INFO</h3>
+            <div class="av">
+                <div class="bginfo">
+                    <h3>INFO INFO</h3>
+                </div>
             </div>
         </div>
         <br>
         <hr>
         <br>
         <div class="galbgc">
-            <div class="bginfo">
-                <h3>INFO INFO</h3>
+            <div class="av">
+                <div class="bginfo">
+                    <h3>INFO INFO</h3>
+                </div>
             </div>
             <br>
             <div class="bgimg">
