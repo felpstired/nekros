@@ -32,26 +32,26 @@
     <section id="header">
         <nav class="navb">
             <div>
-                <a href="#"><img class="logo" src="./img/logo.jpg" alt=""></a>
+                <a href="index.php"><img class="logo" src="./img/logo.jpg" alt=""></a>
                 <!-- <img src="./img/logo.jpg" alt=""> -->
             </div>
             <ul class="navl">
-                <li class="litem"><a href="index.php?page=home">Home</a></li>
+                <li class="litem"><a href="index.php">Home</a></li>
                 <li class="litem"><a href="index.php?page=sin">Sinopse</a></li>
                 <li class="litem"><a href="index.php?page=cl">Cadastro / Login</a></li>
                 <li class="litem">
                     <div class="drop">
                         <button onclick="menu()" class="menu">☰</button>
                         <div class="dropa" id="dropa">
-                            <a href="">Galeria de Personagens</a>
+                            <a href="index.php?page=glp">Galeria de Personagens</a>
                             <hr>
-                            <a href="">Galeria de Backgrounds</a>
+                            <a href="index.php?page=glbg">Galeria de Backgrounds</a>
                             <hr>
-                            <a href="">Galeria de BGM</a>
+                            <a href="index.php?page=glbgm">Galeria de BGM</a>
                             <hr>
-                            <a href="">Processo Criativo</a>
+                            <a href="index.php?page=pc">Processo Criativo</a>
                             <hr>
-                            <a href="">Desenvolvedores</a>
+                            <a href="index.php?page=dev">Desenvolvedores</a>
                         </div>
                     </div>
                 </li>
@@ -66,26 +66,35 @@
 
         if(isset($_GET['page']) && !empty($_GET['page'])){
             $sp = $_GET['page'];
-            if($sp == 'home'){
-                include_once './index.php';
+            if($sp == ''){
+                include_once './erro.php';
             } else if($sp == 'sin'){
                 include_once './sin.php';
             } else if($sp == 'cl'){
                 include_once './cl.php';
-            }else {
+            } else if($sp == 'glp'){
+                include_once './glp.php';
+            } else if($sp == 'glbg'){
+                include_once './glbg.php';
+            } else if($sp == 'glbgm'){
+                include_once './glbgm.php';
+            } else if($sp == 'pc'){
+                include_once './pc.php';
+            } else if($sp == 'dev'){
+                include_once './dev.php';
+            } else {
                 echo 'Essa página não existe!';
             }
         } else {
-            echo 'Favor clicar em algum menu!';
+            include_once './home.php';
         }
         
         ?>
         </div>
     </section>
     <section class="footer">
-        <p>- © Copyright 2023 Minerva Games Limited -</p>
-        <br>
         <p>- Todos os direitos reservados -</p>
+        <p>- © Copyright 2023 Minerva Games Limited -</p>
     </section>
 </body>
 </html>

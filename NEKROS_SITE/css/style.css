@@ -45,21 +45,6 @@ body {
     height: 40px;
 }
 
-/*
-.nav ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    text-decoration: none;
-}
-
-.nav ul li {
-    display: inline;
-    padding: 0px 10px 0px 10px;
-}
-
-*/
-
 .menu {
     background-color: #080808;
     color: #FFFFFF;
@@ -220,4 +205,12 @@ body {
     background-color: #2a5227;
     color: #ffffff;
     cursor: pointer;
+}
+
+
+
+/* PAGINA DE ERRO */
+
+.erro {
+    margin: auto;
 }
