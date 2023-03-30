@@ -11,9 +11,9 @@ function conectar() {
     return $conn;
 }
 
-function usuario(){
+function user($e){
     $conn = conectar();
-    $lista = $conn->query('SELECT * FROM tbusuario');
+    $lista = $conn->query("SELECT user FROM tbusuario WHERE email = ('$e')");
     $lista->execute();
     if ($lista->rowCount() > 0) {
         return $lista->fetchAll(PDO::FETCH_OBJ);
@@ -67,17 +67,6 @@ function teste($a){
         return 'True';
     } else {
         return 'False';
-    }
-}
-
-function pegar($a){
-    $conn = conectar();
-    $lista = $conn->query("SELECT arquivo FROM tbteste WHERE arquivo = ('$a')");
-    $lista->execute();
-    if ($lista->rowCount() > 0) {
-        return $lista->fetchAll(PDO::FETCH_OBJ);
-    } else {
-        return 'A lista está vazia.';
     }
 }
 

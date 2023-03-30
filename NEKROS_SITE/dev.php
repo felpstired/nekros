@@ -19,13 +19,13 @@
         <br>
         <div class="devb">
             <div class="devimg">
-                <h3>IMAGEM DEV</h3>
+                <img src="./css/img/IMAGENS/devs/geisa.png" alt="gegê">
             </div>
             <hr>
             <br class="sep">
             <div class="av">
                 <div class="devinfo">
-                    <h3>INFO INFO</h3>
+                    <h3>GEÍSA</h3>
                 </div>
             </div>
         </div>
@@ -35,13 +35,13 @@
         <div class="devb">
             <div class="av">
                 <div class="devinfo">
-                    <h3>INFO INFO</h3>
+                    <h3>ANA LUÍSA</h3>
                 </div>
             </div>
             <hr>
             <br class="sep">
             <div class="devimg">
-                <h3>IMAGEM DEV</h3>
+                <img src="./css/img/IMAGENS/devs/felps.png" alt="felps">
             </div>
         </div>
         <br>
@@ -49,13 +49,13 @@
         <br>
         <div class="devb">
             <div class="devimg">
-                <h3>IMAGEM DEV</h3>
+                <img src="./css/img/IMAGENS/devs/arthur.png" alt="artu">
             </div>
             <hr>
             <br class="sep">
             <div class="av">
                 <div class="devinfo">
-                    <h3>INFO INFO</h3>
+                    <h3>ARTHUR</h3>
                 </div>
             </div>
         </div>
@@ -65,13 +65,13 @@
         <div class="devb">
             <div class="av">
                 <div class="devinfo">
-                    <h3>INFO INFO</h3>
+                    <h3>GIOVANA</h3>
                 </div>
             </div>
             <hr>
             <br class="sep">
             <div class="devimg">
-                <h3>IMAGEM DEV</h3>
+                <img src="./css/img/IMAGENS/devs/jovana.png" alt="jov">
             </div>
         </div>
         <br>
@@ -79,14 +79,29 @@
         <br>
         <div class="devb">
             <div class="devimg">
-                <h3>IMAGEM DEV</h3>
+                <img src="./css/img/IMAGENS/devs/kaua.png" alt="gawan">
             </div>
             <hr>
             <br class="sep">
             <div class="av">
                 <div class="devinfo">
-                    <h3>INFO INFO</h3>
+                    <h3>KAUÃ</h3>
                 </div>
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
+        <div class="devb">
+            <div class="av">
+                <div class="devinfo">
+                    <h3>VITÓRIA</h3>
+                </div>
+            </div>
+            <hr>
+            <br class="sep">
+            <div class="devimg">
+                <img src="./css/img/IMAGENS/devs/vihh.png" alt="jov">
             </div>
         </div>
     </div>

@@ -1,0 +1,20 @@
+<!-- <img src="./img/logo.jpg" alt=""> -->
+
+<!-- <li class="litem"><a href="index.php?page=cl">Cadastro / Login</a></li> -->
+
+<?php 
+if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
+    echo "<div id='logm'>";
+?>
+<?php
+    echo "</div>";
+    echo "
+        <style>
+            #logm {
+                display: none;
+                visibility: hidden;
+            }            
+        </style>
+    "; */
+}
+?>

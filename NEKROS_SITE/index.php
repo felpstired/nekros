@@ -13,6 +13,19 @@
     <title>Nekrós</title>
 </head>
 <body>
+    <?php
+    
+    session_start();
+    include_once './config/func.php';
+
+    if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
+        $user = user($_SESSION['email']);
+        foreach ($user as $u) {
+            $user = $u->user;
+        }
+    }
+    
+    ?>
     <script>
         function menu() {
             document.getElementById("dropa").classList.toggle("show");
@@ -37,14 +50,12 @@
             <div class="av1">
                 <div class="logoimg">
                     <a href="index.php"><img class="logo" src="./css/img/LOGO/MINERVA/mg.jpg" alt=""></a>
-                    <!-- <img src="./img/logo.jpg" alt=""> -->
                 </div>
             </div>
             <ul class="navl">
                 <li class="litem"><a href="index.php">Home</a></li>
                 <li class="litem"><a href="index.php?page=sinopse">Sinopse</a></li>
-                <!-- <li class="litem"><a href="index.php?page=cl">Cadastro / Login</a></li> -->
-                <li class="litem logm"><a href="index.php?page=login">Login</a></li>
+                <li class="litem" id="logm"><a href="index.php?page=login">Login</a></li>
                 <li class="litem">
                     <div class="drop">
                         <button onclick="menu()" class="menu">☰</button>
@@ -67,8 +78,6 @@
     <section class="corp">
         <div class="corpo">
         <?php
-    
-        include_once './config/func.php';
 
         if(isset($_GET['page']) && !empty($_GET['page'])){
             $sp = $_GET['page'];
@@ -105,15 +114,6 @@
             include_once './home.php';
         }
 
-        if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
-            echo "<style>
-                    .logm {
-                        overflow: hidden;
-                    }            
-                </style>
-            ";
-        }
-
         ?>
         </div>
     </section>
@@ -121,5 +121,43 @@
         <p>© 2023 Minerva Games Limited - Todos os direitos reservados</p>
     </section>
     </div>
+    <script 
+        src="https://code.jquery.com/jquery-3.6.4.js" 
+        integrity="sha256-a9jBBRygX1Bh5lt8GZjXDzyOB+bWve9EiO7tROUtj/E=" 
+        crossorigin="anonymous">
+    </script>
+    <?php
+    
+    if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
+        echo "
+            <script>
+                $('li#logm').html('". $user ."');
+
+                $('li#logm').css({
+                    'color': '#FFFFFF',
+                    'font-family': 'Butcherman, cursive',
+                    'cursor': 'pointer'
+                });
+
+                $('li#logm').hover(function(){
+                    $(this).css({
+                        'color': '#2a5227',
+                        'font-family': 'Butcherman, cursive'
+                    });
+                    }, function(){
+                    $(this).css({
+                        'color': '#FFFFFF',
+                        'font-family': 'Butcherman, cursive'
+                    });
+                });
+
+                $('li#logm').click(function(){
+                    window.location.href='index.php?page=log';
+                });
+            </script>
+        ";
+    }
+    
+    ?>
 </body>
 </html>

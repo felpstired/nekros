@@ -1,7 +1,3 @@
-<?php
-session_start();
-?>
-
 <section class="acaoL">
     <div class="acaoLo">
         <div class="acaoLog">

@@ -11,7 +11,7 @@
         <br>
         <div class="galbgc">
             <div class="bgimg">
-                <h3>IMAGEM BACKGROUND</h3>
+                <img src="./css/img/IMAGENS/placeholder1.png" alt="">
             </div>
             <br>
             <div class="av">
@@ -31,7 +31,7 @@
             </div>
             <br>
             <div class="bgimg">
-                <h3>IMAGEM BACKGROUND</h3>
+                <img src="./css/img/IMAGENS/placeholder1.png" alt="">
             </div>
         </div>
     </div>

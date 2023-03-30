@@ -510,6 +510,19 @@ html, body {
     border-radius: 15px;
     border: 4px solid #477a43;
     box-sizing: border-box;
+    color: #173615;
+    padding: 15px;
+}
+
+.sininfo h3 {
+    padding-bottom: 5px;
+}
+
+@media only screen and (min-width: 601px) {
+    .sininfo p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
 }
 
 @media only screen and (max-width: 601px) {
@@ -547,11 +560,19 @@ html, body {
     -webkit-align-items: center;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
 }
 
 .sinimg img {
     height: 100%;
     width: 100%;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 601px) {
+    .sinimg {
+        padding: 15px;
+    }
 }
 
 @media only screen and (max-width: 601px) {
@@ -560,12 +581,6 @@ html, body {
     }
 }
 
-@media only screen and (max-width: 601px) {
-    .sinimg img {
-        width: 100%;
-        height: 100%;
-    }
-}
 
 
 
@@ -611,13 +626,16 @@ html, body {
 }
 
 .galpb {
-    background-color: #173615;
+    background-color: #477a43;
+    padding: 15px;
     width: 90%;
     margin: auto;
+    color: #FFFFFF;
+    border-radius: 12px;
 }
 
 .galpb p {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 @media only screen and (max-width: 601px) {
@@ -647,25 +665,60 @@ html, body {
 
 .pimg {
     flex-basis: 45%;
-    background-color: #173615;
+    border-radius: 15px;
+    background-color: #173615cb;
     width: 90%;
     box-sizing: border-box;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
 
+.pimg img {
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 601px) {
+    .pimg {
+        padding: 15px;
+    }
 }
 
 @media only screen and (max-width: 601px) {
     .pimg {
         width: 100%;
+        height: 100%;
     }
 }
 
 .pinfo {
     flex-basis: 45%;
+    padding: 15px;
     background-color: #8eaf8c;
     width: 100%;
     border-radius: 15px;
     border: 4px solid #477a43;
     box-sizing: border-box;
+    color: #173615;
+}
+
+@media only screen and (min-width: 601px) {
+    .pinfo p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+.pinfo h3 {
+    padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 601px) {
@@ -674,6 +727,12 @@ html, body {
     }
 }
 
+@media only screen and (min-width: 601px) {
+    .pinfo {
+        display: table-cell;
+        vertical-align: middle;
+    }
+}
 
 
 
@@ -717,13 +776,16 @@ html, body {
 }
 
 .galbgb {
-    background-color: #173615;
+    background-color: #477a43;
     width: 90%;
+    padding: 15px;
     margin: auto;
+    color: #FFFFFF;
+    border-radius: 12px;
 }
 
 .galbgb p {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 @media only screen and (max-width: 601px) {
@@ -734,19 +796,60 @@ html, body {
 
 .bgimg {
     flex-basis: 45%;
-    background-color: #173615;
+    border-radius: 15px;
+    background-color: #173615cb;
     width: 100%;
     box-sizing: border-box;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
 
+@media only screen and (min-width: 601px) {
+    .bgimg {
+        padding: 15px;
+    }
+}
+
+.bgimg img {
+    border-radius: 15px;
+    width: 100%;
+    height: 100%;
+}
+
+@media only screen and (max-width: 601px) {
+    .pimg {
+        width: 100%;
+        height: 100%;
+    }
 }
 
 .bginfo {
     flex-basis: 45%;
     background-color: #8eaf8c;
+    padding: 15px;
     width: 100%;
     border-radius: 15px;
     border: 4px solid #477a43;
     box-sizing: border-box;
+    color: #173615;
+}
+
+@media only screen and (min-width: 601px) {
+    .bgnfo p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+.bginfo h3 {
+    padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 601px) {
@@ -779,7 +882,7 @@ html, body {
 
 .galbgma h1 {
     font-family: 'Eater', cursive;
-    font-size: 45px;
+    font-size: 50px;
     padding-top: 20px;
     padding-bottom: 20px;
     color: #080808;
@@ -799,13 +902,16 @@ html, body {
 }
 
 .galbgmb {
-    background-color: #173615;
+    background-color: #477a43;
     width: 90%;
+    padding: 15px;
     margin: auto;
+    color: #FFFFFF;
+    border-radius: 12px;
 }
 
 .galbgmb p {
-    font-size: 25px;
+    font-size: 22px;
 }
 
 @media only screen and (max-width: 601px) {
@@ -836,9 +942,24 @@ html, body {
 .bgms {
     flex-basis: 45%;
     background-color: #173615;
+    border-radius: 15px;
     width: 90%;
     box-sizing: border-box;
+    box-sizing: border-box;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
 
+.bgms audio {
+    margin: 5px;
+    width: 90%;
 }
 
 @media only screen and (max-width: 601px) {
@@ -850,10 +971,24 @@ html, body {
 .bgminfo {
     flex-basis: 45%;
     background-color: #8eaf8c;
+    padding: 15px;
     width: 100%;
+    height: 100%;
     border-radius: 15px;
     border: 4px solid #477a43;
     box-sizing: border-box;
+    color: #173615;
+}
+
+@media only screen and (min-width: 601px) {
+    .bgminfo p {
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+.bgminfo h3 {
+    padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 601px) {
@@ -1060,11 +1195,19 @@ html, body {
     -webkit-align-items: center;
     align-items: center;
     justify-content: center;
+    border-radius: 15px;
 }
 
 .devimg img {
-    height: 90%;
-    width: 90%;
+    height: 100%;
+    width: 100%;
+    border-radius: 15px;
+}
+
+@media only screen and (min-width: 601px) {
+    .devimg {
+        padding: 15px;
+    }
 }
 
 @media only screen and (max-width: 601px) {
@@ -1096,11 +1239,24 @@ html, body {
     border-radius: 15px;
     border: 4px solid #477a43;
     box-sizing: border-box;
+    padding: 15px;
+    color: #173615;
+}
+
+.devinfo h3 {
+    padding-bottom: 5px;
 }
 
 @media only screen and (max-width: 601px) {
     .devinfo {
         font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .devinfo p {
+        text-align: justify;
+        text-justify: inter-word;
     }
 }
 
