@@ -2,7 +2,7 @@
 
 function conectar() {
     try {
-        $conn = new PDO('mysql:host=localhost; charset=utf8mb4; dbname=dbnekros' , 'root', '');
+        $conn = new PDO('mysql:host=localhost; charset=utf8mb4; dbname=nekros' , 'root', '');
         $conn->setAttribute(PDO::ATTR_ERRMODE, PDO::ERRMODE_EXCEPTION);
     } catch (PDOException $e) {
         echo "Erro ao conectar ao banco de dados:  " . $e->getMessage();
@@ -46,6 +46,16 @@ function idb($user, $email, $senha){
     }
 }
 
+function teste($a){
+    $conn = conectar();
+    $lista = $conn->prepare("INSERT INTO tbteste (arquivo, dataa) VALUES ('$a', NOW())");
+    $lista->execute();
+    if ($lista->rowCount() > 0) {
+        return 'True';
+    } else {
+        return 'False';
+    }
+}
 
 
 ?>

@@ -9,7 +9,6 @@ session_start();
 
             if (isset($_POST['email']) && !empty($_POST['email'])) {
                 $email = $_POST['email'];
-                $_SESSION['email'] = $email;
             } else {
                 echo 'Ocorreu um erro ao tentar acessar a informação.';
                 echo 'Por favor, tente novamente.';
@@ -18,7 +17,6 @@ session_start();
 
             if (isset($_POST['senha']) && !empty($_POST['senha'])) {
                 $senha = $_POST['senha'];
-                $_SESSION['senha'] = $senha;
             } else {
                 echo 'Ocorreu um erro ao tentar acessar a informação.';
                 echo 'Por favor, tente novamente.';
@@ -28,6 +26,8 @@ session_start();
             $login = login($email, $senha);
 
             if ($login == 1) {
+                $_SESSION['email'] = $email;
+                $_SESSION['senha'] = $senha;
                 echo '
                 <h1>Login realizado com sucesso!</h1>
                 <a href="./index.php">Clique aqui para voltar para página principal</a>
