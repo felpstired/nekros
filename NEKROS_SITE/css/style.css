@@ -141,6 +141,7 @@ html, body {
 
 .show {
     display: block;
+    
 }
 
 .footer {
@@ -191,6 +192,12 @@ html, body {
     padding: 30px;
     align-items: center;
     border-radius: 8px;
+}
+
+@media only screen and (min-width: 601px) {
+    .loginf {
+        margin: 15px;
+    }
 }
 
 @media only screen and (max-width: 601px) {
@@ -302,6 +309,12 @@ html, body {
     padding: 30px;
     align-items: center;
     border-radius: 8px;
+}
+
+@media only screen and (min-width: 601px) {
+    .cadastrof {
+        margin: 15px;
+    }
 }
 
 @media only screen and (max-width: 601px) {
@@ -967,18 +980,26 @@ html, body {
 
 .erro {
     text-align: center;
-    padding-top: 306px;
-    padding-bottom: 306px;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
 }
 
 .errod {
-    width: 50%;
-    margin: auto;
-    background-color: #080808;
-    color: #FFFFFF;
+    width: 60%;
+    margin: 15px;
+    background-color: #8eaf8c;
+    color: #080808;
     padding-top: 30px;
     padding-bottom: 30px;
     border-radius: 15px;
+}
+
+@media only screen and (max-width: 601px) {
+    .errod {
+        width: 90%;
+    }
 }
 
 .errod h1 {
@@ -986,15 +1007,37 @@ html, body {
     padding-bottom: 15px;
 }
 
+@media only screen and (max-width: 601px) {
+    .errod h1 {
+        font-size: 30px;
+    }
+}
+
+.errod h4 {
+    font-size: 20px;
+}
+
 .errod h4 {
     padding-bottom: 15px;
 }
 
+@media only screen and (max-width: 601px) {
+    .errod h4 {
+        font-size: 15px;
+    }
+}
+
 .errod a {
     text-decoration: none;
-    color: #FFFFFF;
+    color: #080808;
     font-weight: 700;
     font-size: 20px;
+}
+
+@media only screen and (max-width: 601px) {
+    .errod a {
+        font-size: 17px;
+    }
 }
 
 .errod a::after {
@@ -1013,4 +1056,10 @@ html, body {
 
 .errod a:hover::after {
     width: 40%;
+}
+
+@media only screen and (max-width: 601px) {
+    .errod a:hover::after {
+        width: 60%;
+    }
 }

@@ -36,7 +36,7 @@
         <nav class="navb">
             <div class="av1">
                 <div class="logoimg">
-                    <a href="index.php"><img class="logo" src="./css/img/LOGO/NEKROS/nekros.jpg" alt=""></a>
+                    <a href="index.php"><img class="logo" src="./css/img/LOGO/MINERVA/mg.jpg" alt=""></a>
                     <!-- <img src="./img/logo.jpg" alt=""> -->
                 </div>
             </div>
