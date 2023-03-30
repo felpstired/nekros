@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,200;0,400;0,700;1,200;1,400;1,700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Butcherman&family=Eater&display=swap" rel="stylesheet">
     <title>Home | Projeto</title>
 </head>
 <body>
@@ -29,6 +30,7 @@
             }
         }
     </script>
+    <div class="body">
     <section id="header">
         <nav class="navb">
             <div>
@@ -39,6 +41,7 @@
                 <li class="litem"><a href="index.php">Home</a></li>
                 <li class="litem"><a href="index.php?page=sin">Sinopse</a></li>
                 <li class="litem"><a href="index.php?page=cl">Cadastro / Login</a></li>
+                <li class="litem"><a href="index.php?page=login">Login</a></li>
                 <li class="litem">
                     <div class="drop">
                         <button onclick="menu()" class="menu">☰</button>
@@ -58,7 +61,7 @@
             </ul>
         </nav>
     </section>
-    <section>
+    <section class="corp">
         <div class="corpo">
         <?php
     
@@ -82,6 +85,8 @@
                 include_once './pc.php';
             } else if($sp == 'dev'){
                 include_once './dev.php';
+            } else if($sp == 'login'){
+                include_once './login.php';
             } else {
                 include_once './erro.php';
             }
@@ -96,5 +101,6 @@
         <p>- Todos os direitos reservados -</p>
         <p>- © Copyright 2023 Minerva Games Limited -</p>
     </section>
+    </div>
 </body>
 </html>

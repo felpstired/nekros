@@ -4,14 +4,26 @@
     font-family: 'Kanit', sans-serif;
 }
 
-body {
+html, body {
     background-color: #2a5227;
+    height: 100%;
+}
+
+.body {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.corp {
+    flex: 1 1 auto;
 }
 
 .corpo {
     width: 80%;
     background-color: #477a43;
     margin: auto;
+    height: 100%;
 }
 
 .navb {
@@ -35,6 +47,7 @@ body {
 .navb a {
     color: #FFFFFF;
     text-decoration: none;
+    font-family: 'Butcherman', cursive;
 }
 
 .navb a:hover {
@@ -91,6 +104,7 @@ body {
     text-decoration: none;
     color: #FFFFFF;
     padding-top: 5px;
+    font-family: 'Kanit', sans-serif;
 }
 
 .drop hr {
@@ -118,8 +132,6 @@ body {
 .cl {
     display: flex;
     justify-content: space-around;
-    padding-top: 220px;
-    padding-bottom: 220px;
 }
 
 .cl h2 {
@@ -225,6 +237,90 @@ body {
     cursor: pointer;
 }
 
+/* PAGINA SÓ DE LOGIN */
+
+.login1 {
+    display: flex;
+    justify-content: space-around;
+    text-align: left;
+    height: 100%;
+    align-items: center;
+}
+
+.login2 {
+    flex-basis: 28%;
+    background-color: #8eaf8c;
+    padding: 30px;
+        align-items: center;
+}
+
+.inpe1 {
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+.inpe1:focus {
+    outline: none;
+    box-shadow: 2px 2px #477a43;
+}
+
+#btnlogin1 {
+    width: 100%;
+    border: none;
+    border-radius: 8px;
+    padding: 6px;
+    background-color: #477a43;
+    color: #FFFFFF;
+}
+
+#btnlogin1:hover {
+    background-color: #2a5227;
+}
+
+.inps1 {
+    width: 100%;
+    padding: 5px 0px 5px 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    box-sizing: border-box;
+    transition: 0.4s;
+}
+
+.inps1:focus {
+    outline: none;
+    box-shadow: 2px 2px #477a43;
+}
+
+.login2 h2 {
+    font-size: 35px;
+    padding-bottom: 25px;
+}
+
+.login2 p {
+    text-align: right;
+    font-size: 13px;
+    padding-top: 3px;
+}
+
+.logint {
+    flex-basis: 58%;
+    text-align: center;
+}
+
+
+
+/*  GALERIA DE PERSONAGENS  */
+
+.galpa h1 {
+    font-family: 'Eater', cursive;
+}
+
 
 
 /*  PAGINA DE ERRO  */
@@ -261,6 +357,20 @@ body {
     font-size: 20px;
 }
 
+.errod a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #FFFFFF;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
 .errod a:hover {
     color: #2a5227;
+}
+
+.errod a:hover::after {
+    width: 40%;
 }
