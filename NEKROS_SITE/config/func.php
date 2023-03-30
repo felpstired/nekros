@@ -24,7 +24,7 @@ function usuario(){
 
 function idb($user, $email, $senha){
     $conn = conectar();
-    $lista = $conn->query("INSERT INTO tbusuario (user, email, senha) VALUES ('$user','$email','$senha')");
+    $lista = $conn->prepare("INSERT INTO tbusuario (user, email, senha) VALUES ('$user','$email','$senha')");
     $lista->execute();
     if ($lista->rowCount() > 0) {
         return 'True';
@@ -32,5 +32,7 @@ function idb($user, $email, $senha){
         return 'False';
     }
 }
+
+
 
 ?>

@@ -94,13 +94,15 @@
                 include_once './cadastro.php';
             } else if($sp == 'cadSucesso'){
                 include_once './acaoCadastro.php';
+            } else if($sp == 'logSucesso'){
+                include_once './acaoLogin.php';
             } else {
                 include_once './erro.php';
             }
         } else {
             include_once './home.php';
         }
-        
+
         ?>
         </div>
     </section>

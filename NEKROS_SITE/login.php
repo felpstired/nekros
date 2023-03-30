@@ -4,15 +4,15 @@
             <img src="./css/img/DIVERSOS/AA.png" class="limg" alt="">
             <h2>Login</h2>
         </div>
-        <form name="login" id="login" action="./acao.php" method="post">
+        <form name="login" id="login" action="index.php?page=logSucesso" method="post">
             <div>
                 <label for="email">E-mail:</label><br>
-                <input type="email" class="inpe" name="email" id="email" placeholder="Digite seu email" maxlength="44">
+                <input type="email" class="inpe" name="email" id="email" placeholder="Digite seu email" maxlength="45" required="required">
             </div>
             <br>
             <div>
                 <label for="senha">Senha:</label><br>
-                <input type="password" class="inps" name="senha" id="senha" placeholder="Digite sua senha" maxlength="30">
+                <input type="password" class="inps" name="senha" id="senha" placeholder="Digite sua senha" maxlength="45" required="required">
             </div>
             <br>
             <button name="btnlogin" id="btnlogin" type="submit">Fazer login</button>
