@@ -34,25 +34,34 @@
             </ul>
         </nav>
     </section>
-    <?php
+    <section>
+        <div class="corpo">
+        <?php
     
-    include_once './func/func.php';
+        include_once './func/func.php';
 
-    if(isset($_GET['page']) && !empty($_GET['page'])){
-        $sp = $_GET['page'];
-        if($sp == 'home'){
-            include_once './index.php';
-        } else if($sp == 'sin'){
-            include_once './sin.php';
-        } else if($sp == 'cl'){
-            include_once './cl.php';
-        }else {
-            echo 'Essa página não existe!';
+        if(isset($_GET['page']) && !empty($_GET['page'])){
+            $sp = $_GET['page'];
+            if($sp == 'home'){
+                include_once './index.php';
+            } else if($sp == 'sin'){
+                include_once './sin.php';
+            } else if($sp == 'cl'){
+                include_once './cl.php';
+            }else {
+                echo 'Essa página não existe!';
+            }
+        } else {
+            echo 'Favor clicar em algum menu!';
         }
-    } else {
-        echo 'Favor clicar em algum menu!';
-    }
-    
-    ?>
+        
+        ?>
+        </div>
+    </section>
+    <section class="footer">
+        <p>© Copyright 2022 Minerva Games Limited.</p>
+        <br>
+        <p>Todos os direitos reservados.</p>
+    </section>
 </body>
 </html>
