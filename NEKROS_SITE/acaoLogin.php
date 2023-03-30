@@ -2,6 +2,7 @@
     <div class="acaoLo">
         <div class="acaoLog">
             <?php
+            ob_start();
 
             if (isset($_POST['email']) && !empty($_POST['email'])) {
                 $email = $_POST['email'];
@@ -26,13 +27,14 @@
                 $_SESSION['senha'] = $senha;
                 echo '
                 <h1>Login realizado com sucesso!</h1>
-                <a href="./index.php">Clique aqui para voltar para página principal</a>
+                <h4>Você será redirecionado para página principal.</h4>
                 ';
+                header("refresh:3; url=index.php");
             } else if ($login == 0) {
                 echo '
                 <h1>Email e/ou senha incorretos OU inexistentes!</h1>
                 <h4>Por favor, tente novamente.</h4>
-                <a href="./index.php">Clique aqui para voltar para página principal</a>
+                <a href="./index.php?page=login">Clique aqui para voltar para página de login</a>
                 ';
             } else {
                 include_once './index.php?page=erro';

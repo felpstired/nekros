@@ -29,6 +29,13 @@
             <div class="av">
                 <div class="devinfo">
                     <h3>GEÍSA</h3>
+                    <br>
+                    <p><b>Cargo:</b><br>
+                    Gerente / Escritora / Programadora</p><br>
+                    <p><b>Idade:</b><br>
+                    20 anos</p><br>
+                    <p><b>Sobre:</b><br>
+                    </p>
                 </div>
             </div>
         </div>
@@ -39,6 +46,13 @@
             <div class="av">
                 <div class="devinfo">
                     <h3>ANA LUÍSA</h3>
+                    <br>
+                    <p><b>Cargo:</b><br>
+                    Programadora / Designer Gráfica</p><br>
+                    <p><b>Idade:</b><br>
+                    17 anos</p><br>
+                    <p><b>Sobre:</b><br>
+                    </p><br>
                 </div>
             </div>
             <hr>
@@ -59,6 +73,13 @@
             <div class="av">
                 <div class="devinfo">
                     <h3>ARTHUR</h3>
+                    <br>
+                    <p><b>Cargo:</b><br>
+                    Roteirista / BGM Designer</p><br>
+                    <p><b>Idade:</b><br>
+                    </p><br>
+                    <p><b>Sobre:</b><br>
+                    </p><br>
                 </div>
             </div>
         </div>
@@ -69,6 +90,13 @@
             <div class="av">
                 <div class="devinfo">
                     <h3>GIOVANA</h3>
+                    <br>
+                    <p><b>Cargo:</b><br>
+                    Artista / Designer / Roteirista</p><br>
+                    <p><b>Idade:</b><br>
+                    17 anos</p><br>
+                    <p><b>Sobre:</b><br>
+                    </p><br>
                 </div>
             </div>
             <hr>
@@ -89,6 +117,13 @@
             <div class="av">
                 <div class="devinfo">
                     <h3>KAUÃ</h3>
+                    <br>
+                    <p><b>Cargo:</b><br>
+                    Designer / Roteirista</p><br>
+                    <p><b>Idade:</b><br>
+                    18 anos</p><br>
+                    <p><b>Sobre:</b><br>
+                    </p><br>
                 </div>
             </div>
         </div>
@@ -99,6 +134,13 @@
             <div class="av">
                 <div class="devinfo">
                     <h3>VITÓRIA</h3>
+                    <br>
+                    <p><b>Cargo:</b><br>
+                    Designer / Roteirista</p><br>
+                    <p><b>Idade:</b><br>
+                    17 anos</p><br>
+                    <p><b>Sobre:</b><br>
+                    </p><br>
                 </div>
             </div>
             <hr>

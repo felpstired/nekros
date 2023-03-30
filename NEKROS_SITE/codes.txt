@@ -2,6 +2,10 @@
 
 <!-- <li class="litem"><a href="index.php?page=cl">Cadastro / Login</a></li> -->
 
+/*  else if($sp == 'cl'){
+        include_once './cl.php';
+    } */ 
+
 <?php 
 if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
     echo "<div id='logm'>";
@@ -18,3 +22,4 @@ if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
     "; */
 }
 ?>
+

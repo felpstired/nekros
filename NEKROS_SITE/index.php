@@ -85,9 +85,7 @@
                 include_once './erro.php';
             } else if($sp == 'sinopse'){
                 include_once './sin.php';
-            } /* else if($sp == 'cl'){
-                include_once './cl.php';
-            } */ else if($sp == 'personagens'){
+            } else if($sp == 'personagens'){
                 include_once './glp.php';
             } else if($sp == 'backgrounds'){
                 include_once './glbg.php';
@@ -134,19 +132,19 @@
                 $('li#logm').html('". $user ."');
 
                 $('li#logm').css({
-                    'color': '#FFFFFF',
+                    'color': '#ebe4b8',
                     'font-family': 'Butcherman, cursive',
                     'cursor': 'pointer'
                 });
 
                 $('li#logm').hover(function(){
                     $(this).css({
-                        'color': '#2a5227',
+                        'color': '#6d1722',
                         'font-family': 'Butcherman, cursive'
                     });
                     }, function(){
                     $(this).css({
-                        'color': '#FFFFFF',
+                        'color': '#ebe4b8',
                         'font-family': 'Butcherman, cursive'
                     });
                 });

@@ -1299,12 +1299,12 @@ body {
     }
 }
 
-@media only screen and (min-width: 601px) {
+/* @media only screen and (min-width: 601px) {
     .devinfo p {
         text-align: justify;
         text-justify: inter-word;
     }
-}
+} */
 
 @media only screen and (min-width: 601px) {
     .devinfo {
@@ -1319,6 +1319,9 @@ body {
         text-align: center;
     }
 }
+
+
+
 
 
 /*  ACAO CADASTRO  */
