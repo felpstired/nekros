@@ -976,6 +976,103 @@ html, body {
 
 
 
+/*  ACAO CADASTRO  */
+
+.acaoC {
+    text-align: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100%;
+    align-items: center;
+}
+
+.acaoCa {
+    width: 60%;
+    margin: 15px;
+    background-color: #8eaf8c;
+    color: #080808;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-radius: 15px;
+}
+
+@media only screen and (max-width: 601px) {
+    .acaoCa {
+        width: 90%;
+    }
+}
+
+.acaoCa h1 {
+    font-size: 35px;
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 601px) {
+    .acaoCa h1 {
+        font-size: 30px;
+    }
+}
+
+.acaoCa h4 {
+    font-size: 20px;
+}
+
+.acaoCa h4 {
+    padding-bottom: 15px;
+}
+
+@media only screen and (max-width: 601px) {
+    .acaoCa h4 {
+        font-size: 15px;
+    }
+}
+
+.acaoCa a {
+    text-decoration: none;
+    color: #080808;
+    font-weight: 700;
+    font-size: 20px;
+}
+
+@media only screen and (max-width: 601px) {
+    .acaoCa a {
+        font-size: 17px;
+    }
+}
+
+.acaoCa a::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background: #FFFFFF;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.acaoCa a:hover {
+    color: #2a5227;
+}
+
+.acaoCa a:hover::after {
+    width: 40%;
+}
+
+@media only screen and (max-width: 601px) {
+    .acaoCa a:hover::after {
+        width: 60%;
+    }
+}
+
+.acaoCad {
+    margin: 15px;
+}
+
+
+
+
+
+
 /*  PAGINA DE ERRO  */
 
 .erro {
@@ -1062,4 +1159,8 @@ html, body {
     .errod a:hover::after {
         width: 60%;
     }
+}
+
+.errod2 {
+    margin: 15px;
 }

@@ -68,7 +68,7 @@
         <div class="corpo">
         <?php
     
-        include_once './func/func.php';
+        include_once './config/func.php';
 
         if(isset($_GET['page']) && !empty($_GET['page'])){
             $sp = $_GET['page'];
@@ -92,6 +92,8 @@
                 include_once './login.php';
             } else if($sp == 'cadastro'){
                 include_once './cadastro.php';
+            } else if($sp == 'cadSucesso'){
+                include_once './acaoCadastro.php';
             } else {
                 include_once './erro.php';
             }

@@ -8,20 +8,20 @@
             <img src="./css/img/DIVERSOS/AA.png" class="cimg" alt="">
             <h2>Cadastro</h2>
         </div>
-        <form name="login" id="login" action="" method="post">
+        <form name="login" id="login" action="index.php?page=cadSucesso" method="post">
             <div>
                 <label for="user">Usuário:</label><br>
-                <input type="text" class="inpu" name="user" id="user" placeholder="Digite um usuário" maxlength="22">
+                <input type="text" class="inpu" name="user" id="user" placeholder="Digite um usuário" maxlength="22" required="required">
             </div>
             <br>
             <div>
                 <label for="emailc">E-mail:</label><br>
-                <input type="email" class="inpec" name="emailc" id="emailc" placeholder="Digite um email" maxlength="44">
+                <input type="email" class="inpec" name="emailc" id="emailc" placeholder="Digite um email" maxlength="44" required="required">
             </div>
             <br>
             <div>
                 <label for="senhac">Senha:</label><br>
-                <input type="password" class="inpsc" name="senhac" id="senhac" placeholder="Digite uma senha" maxlength="30">
+                <input type="password" class="inpsc" name="senhac" id="senhac" placeholder="Digite uma senha" maxlength="30" required="required">
             </div>
             <br>
             <button name="btncadastro" id="btncadastro" type="submit">Concluir cadastro</button>
