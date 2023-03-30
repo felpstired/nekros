@@ -18,7 +18,8 @@
             <br class="sep">
             <div class="av">
                 <div class="pcinfo">
-                    <h3>INFO INFO</h3>
+                    <h3>BRAINSTORMING</h3>
+                    <p>Todo a ideia começou com um <i>brainstorming</i> que envolveu toda a equipe. Qual será o tema? O que faremos com esse tema? Como vamos colocar em prática? Discutimos boa parte, e ao decorrer do projeto fomos preenchendo os espaços em branco.</p>
                 </div>
             </div>
         </div>
