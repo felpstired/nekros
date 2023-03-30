@@ -35,6 +35,19 @@ function login($email, $senha){
     }
 }
 
+function verificar($email){
+    $login = 0;
+    $conn = conectar();
+    $lista = $conn->query("SELECT email FROM tbusuario WHERE (email = '$email')");
+    $lista->execute();
+    if ($lista->rowCount() > 0) {
+        $login = 1;
+        return $login;
+    } else {
+        return $login;
+    }
+}
+
 function idb($user, $email, $senha){
     $conn = conectar();
     $lista = $conn->prepare("INSERT INTO tbusuario (user, email, senha) VALUES ('$user','$email','$senha')");

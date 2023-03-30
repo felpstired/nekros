@@ -44,7 +44,7 @@
                 <li class="litem"><a href="index.php">Home</a></li>
                 <li class="litem"><a href="index.php?page=sinopse">Sinopse</a></li>
                 <!-- <li class="litem"><a href="index.php?page=cl">Cadastro / Login</a></li> -->
-                <li class="litem"><a href="index.php?page=login">Login</a></li>
+                <li class="litem logm"><a href="index.php?page=login">Login</a></li>
                 <li class="litem">
                     <div class="drop">
                         <button onclick="menu()" class="menu">☰</button>
@@ -103,6 +103,15 @@
             }
         } else {
             include_once './home.php';
+        }
+
+        if (isset($_SESSION['email']) && isset($_SESSION['senha'])) {
+            echo "<style>
+                    .logm {
+                        overflow: hidden;
+                    }            
+                </style>
+            ";
         }
 
         ?>

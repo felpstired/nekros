@@ -51,11 +51,9 @@
 
     <div align="center">
         <?php
-        
-        $img = pegar($nome);
-
-        if ($img != '') {
-            echo "<img src=./upload/" . $img . ">";
+    
+        if ($nome != '') {
+            echo "<img src=./upload/" . $nome . ">";
         }
 
         ?>

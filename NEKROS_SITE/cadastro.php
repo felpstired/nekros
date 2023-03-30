@@ -5,7 +5,7 @@
     </div> -->
     <div class="cadastrof">
         <div class="ct">
-            <img src="./css/img/DIVERSOS/AA.png" class="cimg" alt="">
+            <img src="./css/img/DIVERSOS/locaad.png" class="cimg" alt="">
             <h2>Cadastro</h2>
         </div>
         <form name="login" id="login" action="index.php?page=cadSucesso" method="post">
