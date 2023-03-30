@@ -10,6 +10,22 @@
         <br>
         <hr>
         <br>
+                <div class="galpc">
+            <div class="av">
+                <div class="pinfo">
+                    <h3>WILLIAN (INTP)</h3>
+                    <p>Willian Bennett, ou só Benny, é o protagonista de</p>
+                </div>
+            </div>
+            <hr>
+            <br class="sep">
+            <div class="pimg">
+                <img src="./css/img/IMAGENS/placeholder.png" alt="">
+            </div>
+        </div>
+        <br>
+        <hr>
+        <br>
         <div class="galpc">
             <div class="pimg">
                 <img src="./css/img/IMAGENS/placeholder.png" alt="">
