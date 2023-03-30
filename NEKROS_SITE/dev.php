@@ -5,7 +5,7 @@
         <br>
         <div class="devb">
             <div class="devimg">
-                <img src="./css/img/LOGO/MINERVA/mg.jpg" alt="">
+                <img src="./css/img/LOGO/MINERVA/mg_bronze.png" alt="">
             </div>
             <br class="sep">
             <div class="av">

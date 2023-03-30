@@ -49,7 +49,7 @@
         <nav class="navb">
             <div class="av1">
                 <div class="logoimg">
-                    <a href="index.php"><img class="logo" src="./css/img/LOGO/MINERVA/mg.jpg" alt=""></a>
+                    <a href="index.php"><img class="logo" src="./css/img/LOGO/MINERVA/mg_bronze.png" alt=""></a>
                 </div>
             </div>
             <ul class="navl">
