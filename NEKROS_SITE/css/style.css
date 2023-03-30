@@ -6,7 +6,7 @@
 }
 
 html {
-    background: url() no-repeat center center fixed; 
+    background: url("./img/fundo.jpg") no-repeat center center fixed; 
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -755,14 +755,35 @@ html, body {
 
 .devimg {
     flex-basis: 45%;
-    background-color: #173615;
+    background-color: #173615cb;
     width: 90%;
     box-sizing: border-box;
+    display: -webkit-flexbox;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    justify-content: center;
+}
+
+.devimg img {
+    height: 90%;
+    width: 90%;
 }
 
 @media only screen and (max-width: 601px) {
     .devimg {
         width: 100%;
+    }
+}
+
+@media only screen and (max-width: 601px) {
+    .devimg img {
+        width: 100%;
+        height: 100%;
     }
 }
 
@@ -778,6 +799,14 @@ html, body {
 @media only screen and (max-width: 601px) {
     .devinfo {
         font-size: 14px;
+    }
+}
+
+@media only screen and (min-width: 601px) {
+    .devinfo {
+        display: ;
+        align-items: center;
+        justify-content: center;
     }
 }
 

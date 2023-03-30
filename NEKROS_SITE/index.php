@@ -34,7 +34,7 @@
     <section id="header">
         <nav class="navb">
             <div class="logoimg">
-                <a href="index.php"><img class="logo" src="./img/logo.jpg" alt=""></a>
+                <a href="index.php"><img class="logo" src="./css/img/LOGO/reserva.jpg" alt=""></a>
                 <!-- <img src="./img/logo.jpg" alt=""> -->
             </div>
             <ul class="navl">
