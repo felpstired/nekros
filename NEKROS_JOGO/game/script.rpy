@@ -1,18 +1,38 @@
-﻿# The script of the game goes in this file.
-
-# Declare characters used by this game. The color argument colorizes the
-# name of the character.
+﻿define mc = Character("[mcname]", color="#cc0000")
 
 
-
-define protag = Character('protag', color="#cc0000")
-
-
-# The game starts here.
+# P jogo começa aqui
 
 label start: 
 
     stop music
+
+    #mostrar caveira no meio para cena de início
+
+    $ mcname = renpy.input("Qual o seu nome?", length=25)
+
+    $ mcname = mcname.strip()
+
+    if mcname == "":
+        $ mcname = "Robin"
+
+    #tem como definir a aparência do mc com as skins e sexos
+
+    #image character = Composite(
+
+    #    (846, 1028),
+    #    (0, 0), "personagem/body-skin-[skin_color.png]"
+    #    (0, 0), "personagem/body-sex-[sexo.png]"
+    #)
+
+    #$sexos = ["feminino", "masculino","sem definição"]
+    #$skin_colors= ["branco", "pardo", "negro"]
+
+
+    #$skin_color = skin_color[1]
+    #$sexo = sexo[1]
+
+    #sumir com a caveira
 
     #imagem capítulo 1
 
@@ -23,21 +43,21 @@ label start:
     
     "Sinto uma dor aguda na cabeça e pressiono minha têmpora para tentar diminuir a dor."
 
-    show protag pain_terno at left
+    show mc pain_terno at left
     with moveinbottom
 
     #dissolve para mudar as expressões dos personagens
     # fade para mudar as cenas de bg
     # move + direção junta "moveinright" para expecificar o movimento de entrada do personagem em cena
 
-    protag "Hãn…"
+    mc "Hãn…"
 
     "Eu estava em um banco de madeira antes de me levantar, o local ao redor é uma praça."
 
     scene bg praca
     with fade
 
-    protag "Acho que perdi algo muito importante, mas não lembro do que seja. Minhas memórias estão confusas… "
+    mc "Acho que perdi algo muito importante, mas não lembro do que seja. Minhas memórias estão confusas… "
 
     show bg vinho
     with fade
@@ -59,7 +79,7 @@ label start:
 
     #default learned = False
 
-    protag "Hm?"
+    mc "Hm?"
 
     menu: 
         "Tentar desbloquear o celular":
@@ -72,7 +92,7 @@ label start:
 
         "Pego o celular e tento desbloquear ele."
 
-        protag "Tem senha..."
+        mc "Tem senha..."
 
         show bg vinho
         with dissolve
@@ -107,13 +127,13 @@ label start:
 
 
 
-        #protag recebe nome e escolhe o sexo
+        #mc recebe nome e escolhe o sexo
         
-        "Sou \" nome, sexo,\" e o local em que estou é uma praça perto de onde eu moro. "
+        "Sou [mcname], sexo,\" e o local em que estou é uma praça perto de onde eu moro. "
 
         "Pego meu celular para poder saber que data é hoje"
         
-        protag "Hoje é dia 06/12/2012..."
+        mc "Hoje é dia 06/12/2012..."
 
         jump choices1_common
 
@@ -147,7 +167,7 @@ label start:
 
         "Em cima dela há quadros com fotos, pego então um dos quadros que repousa nela e olho para a imagem dentro."
 
-        protag "Ugh.."
+        mc "Ugh.."
 
         #tela preta
 
@@ -161,11 +181,11 @@ label start:
 
         "Acordo todo empapado, olho para o quadro que caiu no chão quando caí em posição fetal."
 
-        protag "Ainda bem que não quebrou…"
+        mc "Ainda bem que não quebrou…"
         
         "Começo a chorar sem perceber ao olhar a gravura das duas pessoas no quadro." 
 
-        #protag chorando 
+        #mc chorando 
 
         "A imagem tem eu e mais  'sexo da pessoa',"
 
@@ -178,7 +198,7 @@ label start:
 
         # mostrar cena da ida até a sala
 
-        # mostrar pov do sofá sentado
+        # mostrar mc do sofá sentado
 
         "Enquanto olho o quadro, tento organizar minhas memórias que vieram com a dor insuportável."
 
@@ -186,14 +206,14 @@ label start:
 
         #cena do celular com horário mão
         
-        protag "09 de dezembro de 2012… fiquei 3 dias inconsciente???!"
-        protag "Isso justifica a fome, mas essa dor de cabeça anormal e a falta de memórias… com certeza tem algo errado comigo… " 
+        mc "09 de dezembro de 2012… fiquei 3 dias inconsciente???!"
+        mc "Isso justifica a fome, mas essa dor de cabeça anormal e a falta de memórias… com certeza tem algo errado comigo… " 
 
         # imagem de celular na mão para tirar o texto
         
         "Digo enquanto olho o celular em minha mão."
 
-        protag "Preciso marcar um médico, não estou bem."
+        mc "Preciso marcar um médico, não estou bem."
 
         # lembrança preta e branca da cozinha com a geladeira cehia de anotações
 
@@ -221,13 +241,13 @@ label start:
         
         "Mesmo olhando para o rosto dela no quadro e nas imagens, em minhas memórias estava tudo apagado. Como se houvesse uma névoa tampando minha mente"       
 
-        protag "O que aconteceu com 'ele/a'? Nos separamos?" 
+        mc "O que aconteceu com 'ele/a'? Nos separamos?" 
         
-        # mostrar protag chorando
+        # mostrar mc chorando
 
         "Lágrimas fugiam pela incapacidade de lembrar alguém tão importante e pela dor semelhante àquela que tive ao desmaiar que estava ressurgindo a cada imagem"
         
-        protag "Sinto que se eu tentar lembrar mais dela neste momento, minha cabeça vai se abrir em duas."
+        mc "Sinto que se eu tentar lembrar mais dela neste momento, minha cabeça vai se abrir em duas."
 
         "Desisti de procurar saber sobre a pessoa pelo momento. Procurei então mais informações sobre mim."
         
@@ -235,9 +255,9 @@ label start:
         
         "Passei o resto do dia procurando mais informações de quem eu sou no resto da casa."
         
-        protag "Sou um médico…? Me lembro de usar um jaleco e estar em um local branco com pessoas ao redor..."
+        mc "Sou um médico…? Me lembro de usar um jaleco e estar em um local branco com pessoas ao redor..."
 
-        protag "Me lembro de que estávamos com um paciente na mesa… algumas cirurgias e lembro-me que estava de férias."
+        mc "Me lembro de que estávamos com um paciente na mesa… algumas cirurgias e lembro-me que estava de férias."
 
         # ainda não se lembra do local onde trabalhava 
 
@@ -259,7 +279,7 @@ label start:
 
         #cena depois de abrir a torneira do chuveiro + som de banho
         
-        protag "Parece que eu sofri um acidente… seria essa a causa da minha amnésia?"
+        mc "Parece que eu sofri um acidente… seria essa a causa da minha amnésia?"
 
         "Termino o banho, me enxugo e abro o box."
         
@@ -269,29 +289,29 @@ label start:
 
         "Me olho no espelho."
 
-        #cena no espelho com o protagonista se olhando
+        #cena no espelho com o mconista se olhando
 
-        # cena do espelo com o protagonista de aproximando do espelho para ver a cicatriz
+        # cena do espelo com o mconista de aproximando do espelho para ver a cicatriz
 
-        protag "..."
+        mc "..."
 
         "No espelho vejo meu reflexo, meu rosto está ferido com 4 arranhões que vem da esquerda do rosto até o nariz, que rasgaram muito a pele."
 
-        #cena do espelho com o protagonista perto do espelho tocando a ferida
+        #cena do espelho com o mconista perto do espelho tocando a ferida
 
-        protag "Ouch… " 
+        mc "Ouch… " 
         
-        protag "Parece recente… como isso ocorreu?"
+        mc "Parece recente… como isso ocorreu?"
         
         "Sem memórias do ocorrido, procuro uma pomada para machucados e a passo em meu rosto."
 
-        #cena do espelho com o protagonista perto do espelho tocando a ferida e com pomada na pia e no machucado
+        #cena do espelho com o mconista perto do espelho tocando a ferida e com pomada na pia e no machucado
 
         "Após esse dia mentalmente exaustivo, vou para o quarto dormir novamente"
         
         "Apesar de ter ficado desmaiado 3 dias, não me sinto nem um pouco descansado"
         
-        protag "Sinto como se tivesse corrido várias maratonas... Tô todo amassado."
+        mc "Sinto como se tivesse corrido várias maratonas... Tô todo amassado."
 
         #iamgem de guarda-roupas
         #som de abrir guarda-roupas
@@ -300,9 +320,9 @@ label start:
 
         #tela vermelha + imagens da pessoa usando as roupas no guarda roupa
 
-        #cena pov da cama
+        #cena mc da cama
 
-        protag "Ugh… Não tenho paz nem após o banho…" 
+        mc "Ugh… Não tenho paz nem após o banho…" 
         
         "Digo indignado indo dormir com enxaqueca."
 
@@ -331,7 +351,7 @@ label start:
         
         "Outro mistério é esta cicatriz, não tenho a menor lembrança de como esse arranhão ocorreu, nenhuma das coisas dentro de casa me lembrou sobre como consegui esse machucado."
 
-        protag "Hoje já é o dia do exame... espero que não seja nada sério..."
+        mc "Hoje já é o dia do exame... espero que não seja nada sério..."
         
         "Me arrumei para ir ao médico olhar minha situação, coloquei um cachecol para tentar esconder onde estava o arranhão, e saí de casa."
 
@@ -359,7 +379,7 @@ label start:
 
         "Outras pessoas estavam em macas."
 
-        "'Nome protag'!! O Doutor Patrick está na sala 3, virando a direita." "Me chamaram e fui direcionado até a sala do doutor." 
+        "'Nome mc'!! O Doutor Patrick está na sala 3, virando a direita." "Me chamaram e fui direcionado até a sala do doutor." 
 
         #cena de corredor de hospital + pessoas em macas
 
@@ -390,7 +410,7 @@ label start:
         #senhora extra infectada malzão entra na cena
         #senhora extra infectada 
 
-        protag "Ouf..." 
+        mc "Ouf..." 
 
         "Alguém esbarrou em mim com força. Olhei para quem foi e a pessoa me olhou de volta."
         
@@ -402,7 +422,7 @@ label start:
         
         "Senti um estranho arrepio na espinha quando ela saiu da minha vista."
 
-        protag "Hipotireoidismo é foda viu?"
+        mc "Hipotireoidismo é foda viu?"
 
         "No caminho para fora do hospital olhei para algumas pessoas que estavam em macas, e parecia que realmente havia uma nova doença rondando no ar"
         
@@ -443,15 +463,15 @@ label start:
     #Assistir televisão
     label choices2_a:
 
-        #Cena pov iluminação tarde sofa com tv desligada
+        #Cena mc iluminação tarde sofa com tv desligada
         
         #som de tv ligando 
 
         "Peguei o controle e liguei a televisão."
 
-        #Cena pov iluminação tarde sofa com tv ligada
+        #Cena mc iluminação tarde sofa com tv ligada
 
-        #Cena pov iluminação tarde sofa com tv passando santana acabe com ela
+        #Cena mc iluminação tarde sofa com tv passando santana acabe com ela
 
         "Novela - Voz feminina - Não, me mate também."
 
@@ -463,8 +483,8 @@ label start:
 
         "Novela - Voz feminina - Ai!"
 
-        #Cena pov iluminação tarde sofa com tv ligada mostrando jornalista conversando
-        #Cena pov iluminação tarde sofa com tv ligada
+        #Cena mc iluminação tarde sofa com tv ligada mostrando jornalista conversando
+        #Cena mc iluminação tarde sofa com tv ligada
         
         "Boa tarde. Interrompemos sua programação para informar de uma possível epidemia. Casos de uma nova cepa de H1N1 foram encontrados na cidade A, pelos cientistas da Universidade A na Cidade C." 
         
@@ -472,7 +492,7 @@ label start:
 
         "Dentre os sintomas podemos citar febre alta (acima de 38ºC), suor excessivo, exaustão mental e muscular, irritação e acentuamento no tamanho dos olhos, tosse persistente, coloração da pela amarela ou meio acinzentada, boca extremamente seca e dor de garganta."
         
-        protag "Talvez a idosa no hospital... e essa doença..." 
+        mc "Talvez a idosa no hospital... e essa doença..." 
 
         "Avisamos que essa é uma doença potencialmente fatal, 10 pessoas que estavam em acompanhamento para observar essa doença faleceram dentro das últimas 48 horas."
         

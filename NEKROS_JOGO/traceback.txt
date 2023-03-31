@@ -1,22 +1,26 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 350, in script
-    Extra "Me pergunto se está havendo uma epidemia de gripe. O tempo esfriou ultimamente…"
-Exception: Sayer 'Extra' is not defined.
+  File "game/script.rpy", line 13, in script
+    $ povname = William
+  File "game/script.rpy", line 13, in <module>
+    $ povname = William
+NameError: name 'William' is not defined
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 350, in script
-    Extra "Me pergunto se está havendo uma epidemia de gripe. O tempo esfriou ultimamente…"
-  File "D:\visual novel\renpy-8.0.3-sdk\renpy\ast.py", line 881, in execute
-    who = eval_who(self.who, self.who_fast)
-  File "D:\visual novel\renpy-8.0.3-sdk\renpy\ast.py", line 774, in eval_who
-    raise Exception("Sayer '%s' is not defined." % who)
-Exception: Sayer 'Extra' is not defined.
+  File "game/script.rpy", line 13, in script
+    $ povname = William
+  File "renpy/ast.py", line 1131, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "renpy/python.py", line 1061, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "game/script.rpy", line 13, in <module>
+    $ povname = William
+NameError: name 'William' is not defined
 
-Windows-10-10.0.19041 AMD64
-Ren'Py 8.0.3.22090809
+Windows-7-6.1.7601-SP1 AMD64
+Ren'Py 7.5.3.22090809
 Nekrós 1.0
-Sat Mar 25 20:30:53 2023
+Mon Mar 27 21:12:06 2023

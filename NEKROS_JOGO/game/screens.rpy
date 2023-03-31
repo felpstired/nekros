@@ -304,8 +304,11 @@ screen navigation():
 
         if main_menu:
 
-            textbutton _("Iniciar") action Start() 
-            #True action Start() hovered [ play ("sound", "audio/click2.wav") ]
+            textbutton _("Jogar") action Start() 
+            #hover_sound "audio/bgm/click2.wav"
+            #activate_sound "audio/bgm/click1.wav"
+            #action Start() 
+
 
         else:
         

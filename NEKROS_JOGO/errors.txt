@@ -2,11 +2,10 @@
 errors listed below, and try again.
 
 
-The label choices is defined twice, at File "game/script.rpy", line 56:
-    label choices:
-and File "game/script.rpy", line 425:
-        label choices:
+File "game/script.rpy", line 12: invalid syntax
+    mcname = renpy.input("Qual o seu nome?", default ="Robin" length=25)
+                                                                    ^
+    
 
-
-Ren'Py Version: Ren'Py 8.0.3.22090809
-Sat Mar 25 20:26:33 2023
+Ren'Py Version: Ren'Py 7.5.3.22090809
+Mon Mar 27 22:24:16 2023
