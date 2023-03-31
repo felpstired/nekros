@@ -44,7 +44,7 @@ label start:
     
     "Sinto uma dor aguda na cabeça e pressiono minha têmpora para tentar diminuir a dor."
 
-    show mc pain_terno at left
+    show protag pain_terno at left
     with moveinbottom
 
     #dissolve para mudar as expressões dos personagens
@@ -82,6 +82,8 @@ label start:
 
     mc "Hm?"
 
+    #olhar para baixo vendo o terno
+
     menu: 
         "Tentar desbloquear o celular":
             jump choices1_a
@@ -90,6 +92,8 @@ label start:
             jump choices1_b
 
     label choices1_a:
+
+        call screen bg mao_desbloqueando_celular 
 
         "Pego o celular e tento desbloquear ele."
 
@@ -107,19 +111,27 @@ label start:
 
     label choices1_b:
 
+        call screen bg carteira 
+
         "Abro então a carteira e procuro por alguma informação útil." 
         
         "Tem um documento de identidade."
+
+        #som de dor 1
 
         show bg vinho
         with dissolve
         
         "Quando vejo a foto na identidade, sinto uma dor aguda novamente."
 
+        #som de dor 2 - agudo
+
         show bg preto
         with dissolve
 
         "Imagens começam a aparecer na minha cabeça enquanto uma dor muito forte engloba todos os meus sentidos." 
+
+        #som de dor 2 - dissolve
 
         scene bg praca
         with dissolve
@@ -132,7 +144,7 @@ label start:
         
         "Sou [mcname], sexo,\" e o local em que estou é uma praça perto de onde eu moro. "
 
-        "Pego meu celular para poder saber que data é hoje"
+        "Pego meu celular para poder saber que data é hoje."
         
         mc "Hoje é dia 06/12/2012..."
 
