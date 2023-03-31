@@ -62,7 +62,7 @@
             <div class="av">
                 <div class="pcinfo">
                     <h3>DESENVOLVIMENTO DA HISTÓRIA</h3>
-                    <p></p>
+                    <p>Focamos mais na criação dos personagens em si, como seriam as interações entre os mesmos, além de começarmos a procurar inspirações para seus designs, poses e possíveis cenários.</p>
                 </div>
             </div>
             <hr>
@@ -83,7 +83,7 @@
             <div class="av">
                 <div class="pcinfo">
                     <h3>PROTÓTIPO JOGO</h3>
-                    <p>Todo a ideia começou com um <i>brainstorming</i> que envolveu toda a equipe. Qual será o tema? O que faremos com esse tema? Como vamos colocar em prática? Discutimos boa parte, e ao decorrer do projeto fomos preenchendo os espaços em branco.</p>
+                    <p>Nessa etapa foi pensado no jogo em si, como o faríamos? Resolvemos, no fim, que a alternativa mais viável seria atráves da ferramenta de criação de Visual Novel <i>Ren'Py</i>. Após ter decidido isso, começamos a utilizar a ferramenta, aprendendo como a linguagem funciona e, enfim, programando o jogo.</p>
                 </div>
             </div>
         </div>
@@ -94,7 +94,7 @@
             <div class="av">
                 <div class="pcinfo">
                     <h3>ARTES E MÚSICA</h3>
-                    <p></p>
+                    <p>Com o jogo em andamento, foi se iniciado o desenvolvimento das artes, tanto dos personagens, quanto dos cenários e de outros lugares (como a logo do jogo e do site), assim como sons e possíveis músicas para deixar o projeto mais agradável.</p>
                 </div>
             </div>
             <hr>
@@ -115,7 +115,7 @@
             <div class="av">
                 <div class="pcinfo">
                     <h3>JUNÇÃO DO SITE COM O JOGO</h3>
-                    <p>Todo a ideia começou com um <i>brainstorming</i> que envolveu toda a equipe. Qual será o tema? O que faremos com esse tema? Como vamos colocar em prática? Discutimos boa parte, e ao decorrer do projeto fomos preenchendo os espaços em branco.</p>
+                    <p>A ideia inicial era para que o jogo pudesse ser jogado online via o site, porém, como ainda não conseguimos encontrar um meio para que funcione sem problemas, decidimos que o jogo seria baixado. Então colocamos um sistema para que o jogo possa ser baixado somente com o login no site.</p>
                 </div>
             </div>
         </div>
@@ -126,7 +126,7 @@
             <div class="av">
                 <div class="pcinfo">
                     <h3>TESTES E LIMPEZA</h3>
-                    <p></p>
+                    <p>Essa é a etapa final, no qual testamos cada parte dos códigos, tanto do site, quanto do jogo, para procurar por erros e bugs e, se necessário, consertá-los.</p>
                 </div>
             </div>
             <hr>

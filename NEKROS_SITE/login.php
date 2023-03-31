@@ -14,12 +14,12 @@ if (isset($_SESSION['email']) && isset($_SESSION['senha'])){
         <form name="login" id="login" action="index.php?page=logSucesso" method="post">
             <div>
                 <label for="email">E-mail:</label><br>
-                <input type="email" class="inpe" name="email" id="email" placeholder="Digite seu email" maxlength="45" required="required">
+                <input type="email" class="inpe" name="email" id="email" placeholder="Digite seu email" maxlength="44" required="required">
             </div>
             <br>
             <div>
                 <label for="senha">Senha:</label><br>
-                <input type="password" class="inps" name="senha" id="senha" placeholder="Digite sua senha" maxlength="45" required="required">
+                <input type="password" class="inps" name="senha" id="senha" placeholder="Digite sua senha" maxlength="30" required="required">
             </div>
             <br>
             <button name="btnlogin" id="btnlogin" type="submit">Fazer login</button>
