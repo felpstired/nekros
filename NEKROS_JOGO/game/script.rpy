@@ -5,6 +5,10 @@
 
 label start: 
 
+    $ pnome1 = "Elu"
+
+    $ pnome2 = "Delu"
+
     stop music
 
     scene bg caveira_hover
@@ -28,6 +32,31 @@ label start:
 
     #$sexos = ["feminino", "masculino","sem definição"]
     #$skin_colors= ["branco", "pardo", "negro"]
+
+
+
+    # ANOTAÇÃO DA ANALU UAU UAU UAU
+
+
+    "Quais pronomes melhor te representa?"
+    
+    menu:
+    
+        "Ela/Dela":
+            $ pnome1 = "Ela"
+            $ pnome2 = "Dela"
+
+        "Ele/Dele":
+            $ pnome1 = "Ele"
+            $ pnome2 = "Dele"
+
+        "Elu/Delu":
+            $ pnome1 = "Elu"
+            $ pnome2 = "Delu"
+
+
+    # FIM DA ANOTAÇÃO DA ANALU YIPPIE
+
 
 
     #$skin_color = skin_color[1]
@@ -93,7 +122,8 @@ label start:
 
     label choices1_a:
 
-        call screen bg mao_desbloqueando_celular 
+        show bg mao_desbloqueando_celular
+        with dissolve 
 
         "Pego o celular e tento desbloquear ele."
 
@@ -111,7 +141,8 @@ label start:
 
     label choices1_b:
 
-        call screen bg carteira 
+        show bg carteira 
+        with dissolve 
 
         "Abro então a carteira e procuro por alguma informação útil." 
         
