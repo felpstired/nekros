@@ -2,9 +2,11 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 15: stop requires a channel
-    stop "audio/bgm/main_menu_theme.wav"
-         ^
+The label choices is defined twice, at File "game/script.rpy", line 56:
+    label choices:
+and File "game/script.rpy", line 425:
+        label choices:
+
 
 Ren'Py Version: Ren'Py 8.0.3.22090809
-Mon Mar 20 14:44:18 2023
+Sat Mar 25 20:26:33 2023
