@@ -44,14 +44,14 @@
         <br>
         <div class="pcc">
             <div class="pcimg">
-                <img src="./css/img/IMAGENS/placeholder2.png" alt="placeholder_1por1">
+                <img src="./css/img/IMAGENS/GALERIAS/PROCESSO_CRIATIVO/ptsite.jpeg" alt="placeholder_1por1">
             </div>
             <hr>
             <br class="sep">
             <div class="av">
                 <div class="pcinfo">
                     <h3>PROTÓTIPO SITE</h3>
-                    <p>Foi pensado no design de um site para que o jogo possa ser baixado (ou ser jogado online, que era a ideia original), e o mesmo foi sendo criado aos poucos com auxílio do VS Code.</p>
+                    <p>Foi pensado no design de um site, com ajuda do <i>Figma</i> para que o jogo possa ser baixado (ou ser jogado online, que era a ideia original), e o mesmo foi sendo criado aos poucos com auxílio do <i>Visual Studio Code</i>.</p>
                 </div>
             </div>
         </div>
@@ -68,7 +68,7 @@
             <hr>
             <br class="sep">
             <div class="pcimg">
-                <img src="./css/img/IMAGENS/placeholder2.png" alt="placeholder_1por1">
+                <img src="./css/img/IMAGENS/GALERIAS/PROCESSO_CRIATIVO/denvh.jpeg" alt="placeholder_1por1">
             </div>
         </div>
         <br>
@@ -83,7 +83,7 @@
             <div class="av">
                 <div class="pcinfo">
                     <h3>PROTÓTIPO JOGO</h3>
-                    <p>Nessa etapa foi pensado no jogo em si, como o faríamos? Resolvemos, no fim, que a alternativa mais viável seria atráves da ferramenta de criação de Visual Novel <i>Ren'Py</i>. Após ter decidido isso, começamos a utilizar a ferramenta, aprendendo como a linguagem funciona e, enfim, programando o jogo.</p>
+                    <p>Nessa etapa foi pensado no jogo em si, como o faríamos? Resolvemos, no fim, que a alternativa mais viável seria através da ferramenta de criação de Visual Novel <i>Ren'Py</i>. Após ter decidido isso, começamos a utilizar a ferramenta, aprendendo como a linguagem funciona e, enfim, programando o jogo.</p>
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
             <hr>
             <br class="sep">
             <div class="pcimg">
-                <img src="./css/img/IMAGENS/placeholder2.png" alt="placeholder_1por1">
+                <img src="./css/img/IMAGENS/GALERIAS/PROCESSO_CRIATIVO/artmus.jpeg" alt="placeholder_1por1">
             </div>
         </div>
         <br>
@@ -108,7 +108,7 @@
         <br>
         <div class="pcc">
             <div class="pcimg">
-                <img src="./css/img/IMAGENS/placeholder2.png" alt="placeholder_1por1">
+                <img src="./css/img/IMAGENS/GALERIAS/PROCESSO_CRIATIVO/sitejogo.jpeg" alt="placeholder_1por1">
             </div>
             <hr>
             <br class="sep">
@@ -126,7 +126,7 @@
             <div class="av">
                 <div class="pcinfo">
                     <h3>TESTES E LIMPEZA</h3>
-                    <p>Essa é a etapa final, no qual testamos cada parte dos códigos, tanto do site, quanto do jogo, para procurar por erros e bugs e, se necessário, consertá-los.</p>
+                    <p>Essa é uma das etapas finais, no qual testamos cada parte dos códigos, tanto do site, quanto do jogo, para procurar por erros e bugs e, se necessário, consertá-los.</p>
                 </div>
             </div>
             <hr>
