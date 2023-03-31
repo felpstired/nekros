@@ -68,7 +68,7 @@
         <br>
         <div class="devb">
             <div class="devimg">
-                <img src="./css/img/IMAGENS/devs/arthur.png" alt="artu">
+                <img src="./css/img/IMAGENS/devs/artu.png" alt="artu">
             </div>
             <hr>
             <br class="sep">
@@ -80,9 +80,9 @@
                     <p><b>Cargo:</b><br>
                     Roteirista / BGM Designer</p><br>
                     <p><b>Idade:</b><br>
-                    </p><br>
+                    17 anos</p><br>
                     <p><b>Sobre:</b><br>
-                    </p><br>
+                    Arthur é o principal responsável pelos arquivos de música presentes no jogo, foi ele quem tomou a iniciativa de procurar referências e quais efeitos sonoros seriam bem-vindos ao nosso projeto.</p><br>
                 </div>
             </div>
         </div>

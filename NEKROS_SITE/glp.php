@@ -77,10 +77,10 @@
                 </div>
             </div>
         </div>
-        <br>
+        <!-- <br>
         <hr>
         <br>
-        <!-- <div class="galpc">
+        <div class="galpc">
             <div class="av">
                 <div class="pinfo">
                     <h3>KATE (ENFP)</h3>
@@ -111,7 +111,7 @@
         </div>
         <br>
         <hr>
-        <br> -->
+        <br>
         <div class="galpc">
             <div class="av">
                 <div class="pinfo">
@@ -124,6 +124,6 @@
             <div class="pimg">
                 <img src="./css/img/IMAGENS/placeholder.png" alt="">
             </div>
-        </div>
+        </div> -->
     </div>
 </section>

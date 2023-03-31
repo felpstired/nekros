@@ -12,7 +12,7 @@
         <br>
         <div class="pcc">
             <div class="pcimg">
-                <img src="./css/img/IMAGENS/placeholder2.png" alt="placeholder_1por1">
+                <img src="./css/img/IMAGENS/GALERIAS/PROCESSO_CRIATIVO/brainstorming.png" alt="placeholder_1por1">
             </div>
             <hr>
             <br class="sep">
@@ -36,7 +36,7 @@
             <hr>
             <br class="sep">
             <div class="pcimg">
-                <img src="./css/img/IMAGENS/placeholder2.png" alt="placeholder_1por1">
+                <img src="./css/img/IMAGENS/GALERIAS/PROCESSO_CRIATIVO/basestru.png" alt="placeholder_1por1">
             </div>
         </div>
         <br>
@@ -76,7 +76,7 @@
         <br>
         <div class="pcc">
             <div class="pcimg">
-                <img src="./css/img/IMAGENS/placeholder2.png" alt="placeholder_1por1">
+                <img src="./css/img/IMAGENS/GALERIAS/PROCESSO_CRIATIVO/ptjogo.png" alt="placeholder_1por1">
             </div>
             <hr>
             <br class="sep">

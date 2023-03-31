@@ -1,26 +1,30 @@
 ﻿I'm sorry, but an uncaught exception occurred.
 
 While running game code:
-  File "game/script.rpy", line 13, in script
-    $ povname = William
-  File "game/script.rpy", line 13, in <module>
-    $ povname = William
-NameError: name 'William' is not defined
+  File "game/script.rpy", line 82, in script
+    show mc normal at left
+Exception: Image 'mc' does not accept attributes 'normal'.
 
 -- Full Traceback ------------------------------------------------------------
 
 Full traceback:
-  File "game/script.rpy", line 13, in script
-    $ povname = William
-  File "renpy/ast.py", line 1131, in execute
-    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
-  File "renpy/python.py", line 1061, in py_exec_bytecode
-    exec(bytecode, globals, locals)
-  File "game/script.rpy", line 13, in <module>
-    $ povname = William
-NameError: name 'William' is not defined
+  File "game/script.rpy", line 82, in script
+    show mc normal at left
+  File "renpy/ast.py", line 1408, in execute
+    show_imspec(self.imspec, atl=getattr(self, "atl", None))
+  File "renpy/ast.py", line 1378, in show_imspec
+    atl=atl)
+  File "renpy/exports.py", line 686, in show
+    if not base.find_target() and renpy.config.missing_show:
+  File "renpy/display/image.py", line 414, in find_target
+    self.target = target._duplicate(a)
+  File "renpy/display/transform.py", line 881, in _duplicate
+    args.extraneous()
+  File "renpy/display/core.py", line 267, in extraneous
+    " ".join(self.args),
+Exception: Image 'mc' does not accept attributes 'normal'.
 
 Windows-7-6.1.7601-SP1 AMD64
 Ren'Py 7.5.3.22090809
 Nekrós 1.0
-Mon Mar 27 21:12:06 2023
+Thu Mar 30 22:01:22 2023

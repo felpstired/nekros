@@ -2,13 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 125: end of line expected.
-    call screen bg mao_desbloqueando_celular 
-                   ^
+File "game/script.rpy", line 78: expected statement.
+    zoom 0.75
+          ^
 
-File "game/script.rpy", line 143: end of line expected.
-    call bg carteira  
-            ^
-
-Ren'Py Version: Ren'Py 8.0.3.22090809
-Wed Mar 29 19:24:20 2023
+Ren'Py Version: Ren'Py 7.5.3.22090809
+Thu Mar 30 21:56:10 2023
