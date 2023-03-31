@@ -1,13 +1,18 @@
 ﻿define mc = Character("[mcname]", color="#cc0000")
 
+#define images
+image protag:
+    "protag.png"
+    zoom 1.75
+
 
 # P jogo começa aqui
 
 label start: 
 
-    $ pnome1 = "Elu"
+    #$ pnome1 = "Elu"
 
-    $ pnome2 = "Delu"
+    #$ pnome2 = "Delu"
 
     stop music
 
@@ -19,7 +24,7 @@ label start:
     $ mcname = mcname.strip()
 
     if mcname == "":
-        $ mcname = "Robin"
+        $ mcname = "Willian"
 
     #tem como definir a aparência do mc com as skins e sexos
 
@@ -38,21 +43,21 @@ label start:
     # ANOTAÇÃO DA ANALU UAU UAU UAU
 
 
-    "Quais pronomes melhor te representa?"
+    #"Quais pronomes melhor te representa?"
     
-    menu:
+    #menu:
     
-        "Ela/Dela":
-            $ pnome1 = "Ela"
-            $ pnome2 = "Dela"
+    #    "Ela/Dela":
+    #        $ pnome1 = "Ela"
+    #        $ pnome2 = "Dela"
 
-        "Ele/Dele":
-            $ pnome1 = "Ele"
-            $ pnome2 = "Dele"
+    #    "Ele/Dele":
+    #        $ pnome1 = "Ele"
+    #        $ pnome2 = "Dele"
 
-        "Elu/Delu":
-            $ pnome1 = "Elu"
-            $ pnome2 = "Delu"
+    #    "Elu/Delu":
+    #        $ pnome1 = "Elu"
+    #        $ pnome2 = "Delu"
 
 
     # FIM DA ANOTAÇÃO DA ANALU YIPPIE
@@ -73,7 +78,8 @@ label start:
     
     "Sinto uma dor aguda na cabeça e pressiono minha têmpora para tentar diminuir a dor."
 
-    show protag pain_terno at left
+    #protag com terno e dor 
+    show protag normal at left 
     with moveinbottom
 
     #dissolve para mudar as expressões dos personagens
@@ -122,7 +128,7 @@ label start:
 
     label choices1_a:
 
-        show bg mao_desbloqueando_celular
+        show bg celular
         with dissolve 
 
         "Pego o celular e tento desbloquear ele."
@@ -132,7 +138,17 @@ label start:
         show bg vinho
         with dissolve
 
-        "Tento me lembrar da senha mas a cabeça dói muito na tentativa e desisto."
+        "Tento me lembrar da senha."
+
+        show bg mao_tentando_desbloquear_celular
+        with fade
+
+        mc "Senha incorreta..."
+
+        show bg mao_desbloqueando_celular
+        with fade
+
+        "Tonto novamente mas a cabeça dói muito na tentativa e desisto."
 
         scene bg praca
         with dissolve
@@ -173,7 +189,7 @@ label start:
 
         #mc recebe nome e escolhe o sexo
         
-        "Sou [mcname], sexo,\" e o local em que estou é uma praça perto de onde eu moro. "
+        "Sou [mcname], homem e o local em que estou é uma praça perto de onde eu moro. "
 
         "Pego meu celular para poder saber que data é hoje."
         
@@ -199,21 +215,33 @@ label start:
 
         "O cheiro familiar dentro do carro relembra mais memórias com a mesma dor anterior." 
 
+        scene bg carro
+        with dissolve
         #som de carro ligando e funcionando
 
         "Com as memórias recém-relembradas dirijo até minha casa."
+
+        scene bg rua_casa
+        with dissolve
         
         "Me perco no caminho algumas vezes, mas consigo encontrar o caminho de volta."
 
         "Estaciono então no local de sempre e tranco o carro."
 
+        scene bg casa
+        with dissolve
+
         "Entro dentro da casa com a chave e o cheiro da mesma me enche de familiaridade. Olho para a sapateira que está no hall de entrada e caminho até ela."
 
+        scene bg hall_casa
+        with dissolve
+        
         "Em cima dela há quadros com fotos, pego então um dos quadros que repousa nela e olho para a imagem dentro."
 
         mc "Ugh.."
 
-        #tela preta
+        scene bg preto
+        with dissolve
 
         "Quando vejo a imagem, minha cabeça dói ainda mais que as vezes anteriores, parecendo que partiria no meio. "
 
@@ -222,6 +250,12 @@ label start:
         "Sem aguentar a dor, caio no chão em posição fetal enquanto seguro a cabeça com força gemendo de dor."
 
         "Suando de dor, tudo se apaga e desmaio."
+
+        scene bg hall_casa
+        with dissolve
+
+        #scene bg quadro
+        #with dissolve
 
         "Acordo todo empapado, olho para o quadro que caiu no chão quando caí em posição fetal."
 
@@ -242,7 +276,7 @@ label start:
 
         # mostrar cena da ida até a sala
 
-        # mostrar mc do sofá sentado
+        # mostrar mc no sofá sentado
 
         "Enquanto olho o quadro, tento organizar minhas memórias que vieram com a dor insuportável."
 
