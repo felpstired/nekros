@@ -249,13 +249,13 @@ screen quick_menu():
             xalign 0.5
             yalign 1.0
 
-            textbutton _("Back") action Rollback()
-            textbutton _("History") action ShowMenu('history')
-            textbutton _("Skip") action Skip() alternate Skip(fast=True, confirm=True)
+            textbutton _("Voltar")  action  Rollback() 
+            textbutton _("História") action ShowMenu('history')
+            textbutton _("Pular") action Skip() alternate Skip(fast=True, confirm=True)
             textbutton _("Auto") action Preference("auto-forward", "toggle")
-            textbutton _("Save") action ShowMenu('save')
-            textbutton _("Q.Save") action QuickSave()
-            textbutton _("Q.Load") action QuickLoad()
+            textbutton _("Salvar") action ShowMenu('save')
+            textbutton _("S. Rápido") action QuickSave()
+            textbutton _("Carr. Rápido") action QuickLoad()
             textbutton _("Prefs") action ShowMenu('preferences')
 
 
@@ -298,27 +298,29 @@ screen navigation():
         else:
             xoffset 60
             yalign 0.5
+
+        
             
 
         spacing gui.navigation_spacing
 
         if main_menu:
 
-            textbutton _("Jogar") action Start() 
-            #hover_sound "audio/bgm/click2.wav"
-            #activate_sound "audio/bgm/click1.wav"
+            textbutton _("Jogar") hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg" action Start() 
+            #hover_sound "audio/bgm/click2.ogg"
+            #activate_sound "audio/bgm/click1.ogg"
             #action Start() 
 
 
         else:
         
-            textbutton _("History") action ShowMenu("history")
+            textbutton _("History") hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg" action ShowMenu("history")
 
-            textbutton _("Save") action ShowMenu("save")
+            textbutton _("Save") hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg" action ShowMenu("save")
 
-        textbutton _("Carregar") action ShowMenu("load")
+        textbutton _("Carregar") hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg" action ShowMenu("load")
 
-        textbutton _("Config.") action ShowMenu("preferences")
+        textbutton _("Config.") hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg" action ShowMenu("preferences")
 
         if _in_replay:
 
@@ -329,20 +331,20 @@ screen navigation():
             xoffset 60
             yalign 0.5    
 
-            textbutton _("Main Menu") action MainMenu()
+            textbutton _("Main Menu") hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg" action MainMenu()
 
-        textbutton _("Sobre") action ShowMenu("about")
+        textbutton _("Sobre") hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg" action ShowMenu("about")
 
         if renpy.variant("pc") or (renpy.variant("web") and not renpy.variant("mobile")):
 
             ## Help isn't necessary or relevant to mobile devices.
-            textbutton _("Ajuda") action ShowMenu("help")
+            textbutton _("Ajuda") hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg" action ShowMenu("help")
 
         if renpy.variant("pc"):
 
             ## The quit button is banned on iOS and unnecessary on Android and
             ## Web.
-            textbutton _("Sair") action Quit(confirm=not main_menu)
+            textbutton _("Sair") hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg" action Quit(confirm=not main_menu)
 
 
 style navigation_button is gui_button
@@ -426,7 +428,7 @@ style main_menu_version:
 ## Game Menu screen ############################################################
 ##
 ## This lays out the basic common structure of a game menu screen. It's called
-## with the screen title, and displays the background, title, and navigation.
+## with the screen Ftitle, and displays the background, title, and navigation.
 ##
 ## The scroll parameter can be None, or one of "viewport" or "vpgrid". When
 ## this screen is intended to be used with one or more children, which are
@@ -490,6 +492,8 @@ screen game_menu(title, scroll=None, yinitial=0.0):
 
     textbutton _("Return"):
         style "return_button"
+
+        hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg"
 
         action Return()
 

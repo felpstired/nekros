@@ -7,7 +7,8 @@ label start:
 
     stop music
 
-    #mostrar caveira no meio para cena de início
+    scene bg caveira_hover
+    with fade
 
     $ mcname = renpy.input("Qual o seu nome?", length=25)
 

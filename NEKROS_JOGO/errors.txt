@@ -2,10 +2,9 @@
 errors listed below, and try again.
 
 
-File "game/script.rpy", line 12: invalid syntax
-    mcname = renpy.input("Qual o seu nome?", default ="Robin" length=25)
-                                                                    ^
-    
+File "game/screens.rpy", line 252: expected a keyword argument, colon, or end of line.
+    textbutton _("Voltar") action hover_sound "audio/bgm/click2.ogg" activate_sound "audio/bgm/click1.ogg" Rollback()
+                                              ^
 
 Ren'Py Version: Ren'Py 7.5.3.22090809
-Mon Mar 27 22:24:16 2023
+Tue Mar 28 21:39:03 2023
