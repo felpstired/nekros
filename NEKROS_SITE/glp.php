@@ -20,7 +20,7 @@
             <hr>
             <br class="sep">
             <div class="pimg">
-                <img src="./css/img/IMAGENS/placeholder.png" alt="">
+                <img src="./css/img/IMAGENS/GALERIAS/PERSONAGEM/protag.png" alt="protag">
             </div>
         </div>
         <br>
@@ -28,15 +28,21 @@
         <br>
         <div class="galpc">
             <div class="pimg">
-                <img src="./css/img/IMAGENS/placeholder.png" alt="">
+                <img src="./css/img/IMAGENS/GALERIAS/PERSONAGEM/per1.png" alt="amg_protag">
             </div>
             <hr>
             <br class="sep">
-            <div class="av">
+            <!-- <div class="av">
                 <div class="pinfo">
                     <h3>SKY / CHLOE (ESFP)</h3>
                     <p>São pessoas que trazem sempre um sorriso no rosto. Dão bom dia ate para o cachorro na rua. É impossível não se sentir energizado ao lado de alguém com essa personalidade. São bem – humorados, cooperativos, divertidos, sociáveis e tolerantes.</p>
                 </div>
+            </div> -->
+            <div class="av">
+                <div class="pinfo">
+                    <h3>NARA (ENFP)</h3>
+                    <p>Ela encontra o verdadeiro sentido da vida no processo, não necessariamente no atingimento de uma meta. Ela tem um verdadeiro espírito livre, adora vivenciar novas experiências e conhecer pessoas diferentes. Tem a capacidade única de entusiasmar  e trazer a tona talentos escondidos.</p>
+                </div>
             </div>
         </div>
         <br>
@@ -45,14 +51,14 @@
         <div class="galpc">
             <div class="av">
                 <div class="pinfo">
-                    <h3>NICOLAS / NICK (ISTJ)</h3>
-                    <p>São pessoas extremamente confiáveis, pois valorizam como ninguém o cumprimento da palavra dada. Sistemáticos, organizados, práticos e realistas, mantém a ordem seja na esfera profissional, seja na familiar.</p>
+                    <h3>NICOLAS (ISTJ)</h3>
+                    <p>Ele é uma pessoa extremamente confiável, pois valoriza como ninguém o cumprimento da palavra dada. Sistemático, organizado, prático e realista, mantém a ordem seja na esfera profissional, seja na familiar.</p>
                 </div>
             </div>
             <hr>
             <br class="sep">
             <div class="pimg">
-                <img src="./css/img/IMAGENS/placeholder.png" alt="">
+                <img src="./css/img/IMAGENS/GALERIAS/PERSONAGEM/per2.png" alt="per2">
             </div>
         </div>
         <br>
@@ -60,21 +66,21 @@
         <br>
         <div class="galpc">
             <div class="pimg">
-                <img src="./css/img/IMAGENS/placeholder.png" alt="">
+                <img src="./css/img/IMAGENS/GALERIAS/PERSONAGEM/antag.png" alt="antag">
             </div>
             <hr>
             <br class="sep">
             <div class="av">
                 <div class="pinfo">
-                    <h3>BEATRICE (ENTJ)</h3>
-                    <p>São pessoas que respiram ar de liderança, tem facilidade em gerenciar pessoas  e tomar decisões importantes. Sentem – se vivos quando estão diante de desafios que os tiram da zona de conforto.</p>
+                    <h3>SHEILA (ISTP)</h3>
+                    <p>Ela tem como o lema “faça você mesmo”. Ela é prática e adora resolver problemas com as próprias mãos. Ela é discreta e prefere trabalhar com equipes menores.</p>
                 </div>
             </div>
         </div>
         <br>
         <hr>
         <br>
-        <div class="galpc">
+        <!-- <div class="galpc">
             <div class="av">
                 <div class="pinfo">
                     <h3>KATE (ENFP)</h3>
@@ -105,7 +111,7 @@
         </div>
         <br>
         <hr>
-        <br>
+        <br> -->
         <div class="galpc">
             <div class="av">
                 <div class="pinfo">
