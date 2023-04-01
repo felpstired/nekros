@@ -132,7 +132,7 @@
             <hr>
             <br class="sep">
             <div class="pcimg">
-                <img src="./css/img/IMAGENS/placeholder2.png" alt="placeholder_1por1">
+                <img src="./css/img/IMAGENS/GALERIAS/PROCESSO_CRIATIVO/teste.png" alt="placeholder_1por1">
             </div>
         </div>
     </div>
